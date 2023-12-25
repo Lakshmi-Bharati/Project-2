@@ -88,24 +88,59 @@ img
 
 
 
-/************ media content ***************/
-.content
+/************ media content slide frame***************/
+.slider-frame
 {
-    background-color: black;
     
+    background-color: black;
+    overflow: hidden;
+    animation: animate 30s ease-in-out infinite;
+    
+}
+
+.slide-media
+{
+    position: relative;
+    background-color: black;
+    border: 1px solid black;
+    height: 50rem;
+    width: 103.25%; 
 }
 
 .media
 {
-    
-    background-color: black;
-    border: 1px solid black;
+    position: relative;
     height: 50rem;
-    width: 103.25%;
-   
-    
-    
+    width: 100%;
 }
+@keyframes animate 
+{
+    0%, 100%
+    {
+        background-image: url(video/video1.mp4);
+        background-size: cover;
+    }
+
+    25%
+    {
+        background-image: url(images/slide\ img1.jpg);
+        background-size: cover;
+    }
+
+    50%
+    {
+        background-image: url(images/slide\ img2.jpg.jpg);
+        background-size: cover;
+    }
+
+    75%
+    {
+        background-image: url(images/slide\ img3.jpg.jpg);
+        background-size: cover;
+    }
+}
+
+
 
 /************ middle bar ***********/
 .middlebar
@@ -251,3 +286,5 @@ img
     font-weight: 100;
     
 }
+
+
