@@ -1,0 +1,253 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    border: border-box;
+    font-family: "Open Sans";
+    
+    
+}
+
+body
+{
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+/*********** Header ***************/
+header{
+    background-color: black;
+}
+
+.container
+{
+    width: 80%;
+    height: 4.7rem;
+    color: white;
+    font-size: 1rem;
+    padding: 0px 12px;
+    margin: 0px 135px;
+}
+
+.navbar
+{
+    width: 78.5%;
+    height: 4.7rem;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+
+
+img
+{
+    width: 17rem;
+    height: 4rem;
+    margin-top: 0.3rem;
+}
+
+.mainbar
+{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 60rem;
+    height: 4.7rem;
+    text-transform: uppercase;
+    
+    
+}
+
+.text-color:hover
+{
+    color: red;
+
+}
+
+.list-link
+{
+    text-decoration: none;
+    color: white;
+}
+
+.mail i, .search i
+{
+    width: 1.5rem;
+    height: 1.5rem;
+    font-size: 1.5rem;
+    margin-left: 2rem;
+}
+
+.mail i, .search i
+{
+    color: white;
+}
+
+
+
+/************ media content ***************/
+.content
+{
+    background-color: black;
+    
+}
+
+.media
+{
+    
+    background-color: black;
+    border: 1px solid black;
+    height: 50rem;
+    width: 103.25%;
+   
+    
+    
+}
+
+/************ middle bar ***********/
+.middlebar
+{
+    width: 100%;
+    height: 3.625rem;
+    background-color: black;
+    
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.middle-nav
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+    width: 60rem;
+    height: 4.7rem;
+    margin: 0;
+    padding: 0;
+}
+
+.middle-nav a:hover
+{
+    text-decoration: underline;
+    color: cyan;
+}
+
+
+/*********** content 2 **********/
+
+.content2
+{
+    width: 100%;
+    text-align: center;
+}
+
+.content2 h2
+{
+    font-size: 2.5rem;
+    font-weight: 100;
+    margin-top: 2.5rem;
+}
+
+.content2 p
+{
+    font-size: 1.2rem;
+}
+
+/********** Grid ***********/
+
+.grid1
+{
+    width: 103.25%;
+    height: 35rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+}
+
+.grid-main
+{
+    width: 79.5%;
+    height: 34.5rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 1rem;
+    margin: 5rem 3.5rem 0 0;
+    
+}
+
+.child
+{
+    
+    position: relative;
+    display: inline-block;
+    
+}
+
+.child img
+{
+    width: 100%;
+    height: 10.5rem;
+    filter: blur(2px);
+   
+}
+
+.overlay-text
+{
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    color: #161A30;
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-decoration: underline;
+}
+
+/********** section *********/
+
+.what-we-do
+{
+    width: 103.25%;
+    height: 48rem;
+   
+}
+
+.what-we-do p
+{
+    padding: 3rem 0;
+    
+}
+
+.section-main
+{
+    width: 77.5%;
+    height: 6.75rem;
+    text-align: center;
+     
+}
+
+.section-text h2
+{
+    font-size: 2.5rem;
+    font-weight: 100;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.section-text p
+{
+    font-size: 1.2rem;
+    font-weight: 100;
+    
+}
