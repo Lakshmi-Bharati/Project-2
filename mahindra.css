@@ -102,7 +102,6 @@ img
 {
     position: relative;
     background-color: black;
-    border: 1px solid black;
     height: 50rem;
     width: 103.25%; 
 }
@@ -261,36 +260,33 @@ img
 {
     width: 103.25%;
     height: 48rem;
+    margin-top: 6rem;
    
 }
 
-.what-we-do p
-{
-    padding: 3rem 0;
-    
-}
 
 .section-main
 {
-    width: 77.5%;
-    height: 6.75rem;
-    text-align: center;
-     
+    width: 100%;
+    height: 60rem;
+    border: 1px solid black;
+    background-image: url(images/section\ img.avif);
+    background-size: cover;
+    color: white;   
 }
 
-.section-text h2
+.section-main h2
 {
+    margin-left: 30%;
+    margin-top: 5%;
+    line-height: 2;
     font-size: 2.5rem;
-    font-weight: 100;
-    text-transform: uppercase;
-    margin: 0;
 }
 
-.section-text p
+.section-main p
 {
+    margin-left: 28%;
+    line-height: 2;
     font-size: 1.2rem;
-    font-weight: 100;
-    
 }
-
 
