@@ -10,11 +10,12 @@
 
 header{
     background-color: black;
+    width: 100%;
 }
 
 .container
 {
-    width: 80%;
+    width: 90%;
     height: 4.7rem;
     color: white;
     font-size: 1rem;
@@ -24,7 +25,7 @@ header{
 
 .navbar
 {
-    width: 78.5%;
+    width: 80%;
     height: 4.7rem;
     display: flex;
     color: white;
@@ -33,12 +34,22 @@ header{
     font-size: 1rem;
 }
 
+.logo
+{
+    width: 350px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .logo a
 {
     color: white;
     font-family: Satisfy;
     text-decoration: none;
     font-size: 25px;
+    padding-right: 3rem;
 }
 
 
@@ -47,21 +58,23 @@ header{
     background-color: black;
     display: flex;
     justify-content: space-evenly;
+    width: 60%;
 }
 
 .mainbar ul
 {
-    display: inline-flex;
+    display: flex;
+    justify-content: space-evenly;
     list-style: none;
     color: white;
-    margin-left: 1.5rem;
+    
 }
 
 .mainbar ul li
 {
-    width: 9rem;
-    margin: 0.3rem;
-    padding: 0.3rem;
+    width: 9rem;  
+    margin: 0.4rem;
+    
 }
 
 .text-color:hover
@@ -76,22 +89,23 @@ header{
     color: white;
 }
 
-/**************************submenu1 hover****************************/
+/**************************submenu1 rise hover****************************/
 
 .submenu1
 {
     display: none;
 }
 
-.mainbar li:hover .submenu1
+.mainbar li:hover .sub1
 {
     display: block;
     position: absolute;
     background-color: black;
     margin-top: 1.2rem;
     margin-right: -1rem;
-    margin-left: -24rem;
+    margin-left: -27.3rem;
     width: 100%;
+    height: 25rem; 
 }
 
 
@@ -105,12 +119,16 @@ header{
 {
     width: 100%;
     margin-left: 23rem;
-    
     padding: 1rem;
     height: auto;
     background: transparent;
     border-radius: 0;
 
+}
+
+.mainbar li:hover .submenu1 ul li:hover a
+{
+    text-decoration: underline;
 }
 
 .mainbar ul li:hover .submenu1 ul li a:hover
@@ -127,8 +145,155 @@ header{
 }
 
 
-.menu-img
+.submenu1 img
 {
     width: 22rem;
+    height: 12rem;
     margin-top: 1.5rem;
+    position: relative;
+    left: 80rem;
+    top: -20rem;
+}
+
+/**************************submenu1 aboutus hover****************************/
+
+.mainbar li:hover .sub2
+{
+    display: block;
+    position: absolute;
+    background-color: black;
+    margin-top: 1.2rem;
+    margin-right: 2rem;
+    margin-left: -36.4rem;
+    width: 100%;
+    height: 25rem; 
+}
+
+.sub5 img
+{
+    width: 22rem;
+    height: 12rem;
+    margin-top: 1.5rem;
+    position: relative;
+    left: 80rem;
+    top: -15rem;
+}
+
+/**************************submenu1 our businesses****************************/
+
+.mainbar li:hover .sub3
+{
+    display: block;
+    position: absolute;
+    background-color: black;
+    margin-top: 1.2rem;
+    margin-right: 2rem;
+    margin-left: -45.4rem;
+    width: 100%;
+    height: 25rem; 
+}
+
+.sub3 img
+{
+    width: 22rem;
+    height: 12rem;
+    margin-top: 1.5rem;
+    position: relative;
+    left: 80rem;
+    top: -10rem;
+}
+
+/**************************submenu investor relations****************************/
+
+.mainbar li:hover .sub4
+{
+    display: block;
+    position: absolute;
+    background-color: black;
+    margin-top: 1.2rem;
+    margin-right: 2rem;
+    margin-left: -54.3rem;
+    width: 100%;
+    height: 25rem; 
+}
+
+.sub4 img
+{
+    width: 22rem;
+    height: 12rem;
+    margin-top: 1.5rem;
+    position: relative;
+    left: 80rem;
+    top: -20rem;
+}
+
+/**************************submenu news room****************************/
+
+.mainbar li:hover .sub5
+{
+    display: block;
+    position: absolute;
+    background-color: black;
+    margin-top: 1.2rem;
+    margin-right: 2rem;
+    margin-left: -63.3rem;
+    width: 100%;
+    height: 25rem; 
+}
+
+.sub5 img
+{
+    width: 22rem;
+    height: 12rem;
+    margin-top: 1.5rem;
+    position: relative;
+    left: 80rem;
+    top: -15rem;
+}
+
+/**************************careers****************************/
+
+.mainbar li:hover .sub6
+{
+    display: block;
+    position: absolute;
+    background-color: black;
+    margin-top: 1.2rem;
+    margin-right: 2rem;
+    margin-left: -72.3rem;
+    width: 100%;
+    height: 25rem; 
+}
+
+.sub6 img
+{
+    width: 22rem;
+    height: 12rem;
+    margin-top: 1.5rem;
+    position: relative;
+    left: 80rem;
+    top: -15rem;
+}
+
+/*************mail & search ****************/
+
+.search ul
+{
+    display: flex;
+}
+
+.search ul li
+{
+    list-style: none;
+    margin: 2rem; 
+}
+
+.search ul li a
+{
+    color: white;
+}
+
+.search ul li:hover a
+{
+    color: red;
 }
