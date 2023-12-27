@@ -1,0 +1,88 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    border: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+}
+
+/***************main div ******************/
+.search
+{
+    width: 100%;
+    height: 59rem;
+    background-color: black;
+    color: white;
+}
+
+.search ul
+{
+    margin-left: 90rem;
+    padding-top: 1.5rem;
+}
+
+.search ul a
+{
+    margin: 1rem;
+}
+
+.search .mail 
+{
+    color: white;
+}
+
+.search .xmark
+{
+    color: red;
+}
+
+.search .mail:hover
+{
+    color: red;
+}
+
+/************* second div ***************/
+.div-wrap
+{
+    width:75rem;
+    height: 28rem;
+    border: 2px white solid;
+    color: white;
+    margin: 12rem 14rem 0;
+    padding: 1rem 0 1.5rem;
+}
+
+form input
+{
+    width: 65rem;
+    height: 3rem;
+    box-shadow: none;
+    outline: none;
+    border-bottom: 1px white solid;
+    background-color: black;
+    text-decoration: underline;
+    color: white;
+    font-size: 1rem;  
+    padding: 0.625rem 5rem 0.625rem 2.20rem;
+}
+
+.icon
+{
+    position: relative;
+    left: 2rem;
+    top: 0.8rem;
+}
+
+.label a
+{
+    color: white;
+    text-decoration: none;
+}
+
+.label
+{
+    position: relative;
+    left: 70rem;
+    top: -2rem;
+}
