@@ -546,6 +546,7 @@ header{
     background-image: linear-gradient(white, green);
     display: flex;
     justify-content: center;
+    padding: 3rem 0;
 }
 
 .parent
@@ -596,9 +597,10 @@ header{
 .section3
 {
     width: 100%;
-    height: 47rem;
+    height: 45rem;
     margin-top: 3rem;
-    margin-bottom: 3rem;
+    background-color: #f6f5f0;
+    padding: 3rem 0;
 }
 
 .sec3-text
@@ -615,17 +617,277 @@ header{
 .grid3-parent
 {
     width: 83rem;
-    height: 34rem;
+    height: 35.5rem;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    column-gap: 0.5rem;
+    gap: 1rem;
     margin-left: 18rem;
+}
+
+
+/**************gri3 alignment ***************/
+.grid3-child1
+{
+    
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color: #372f2d;
+}
+
+.grid3-child2
+{
+    
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color: #372f2d;    
+}
+
+.grid3-child3
+{
+    background-color: #372f2d;
+    
+}
+
+/********* grid3 div1 ***********/
+.grid3-child1 img
+{
+    width: 41rem;
+    height: 23rem;
+}
+
+.grid3-child1 .content-wrap
+{
+    width: 35rem;
+    height: 4.7rem;
+    padding: 3rem;
+    background-color: #372f2d;
+    margin: 0;
+}
+
+
+.content-wrap .category
+{
+    font-size: 0.75rem;
+    margin: 0 0 0.5rem;
+    color: white;
+}
+
+.content-wrap .text 
+{
+    font-size: 1rem;
+    color: white;
+    padding-bottom: 0.5rem;
+}
+
+.content-wrap  a
+{
+    font-size: 0.8rem;
+    padding: 6px 0 4px;
+    color: red;
+}
+
+.content-wrap .date 
+{
+    width: 7rem;
+    height: 1rem;
+    font-size: 0.8rem;
+    color: white;
+}
+
+/************ grid3 div2 *****************/
+
+.grid3-child2
+{
+    display: flex;
+}
+
+
+.grid3-child2 .content-wrap
+{
+   
+    padding: 3rem;
+    background-color: #372f2d;
+    margin: 0;
+}
+
+/********** grid3 div3 ***********/
+
+.grid3-child3
+{
+    display: flex;
+}
+
+
+.grid3-child3 .content-wrap
+{
+   
+    padding: 3rem;
+    background-color: #372f2d;
+    margin: 0;
+}
+
+.grid3-child3 .content-wrap p
+{
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.grid3-child3 .content-wrap a
+{
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+/************ section 4 *****************/
+
+.section4
+{
+    width: 100%;
+    height: 47rem;
+    margin-bottom: 3rem;
+    padding: 3rem 0;
+}
+
+.section4-header
+{
+    width: 100%;
+    height: 5.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section4-header h2
+{
+    font-size: 2.4rem;
+    letter-spacing: 0.5rem;
+}
+
+/************ section4 grid4 ***************/
+
+.grid4-parent
+{
+    width: 80rem;
+    height: 42rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    margin-left: 18.5rem;
+    gap: 1rem;
+}
+
+.grid4-child
+{
     border: 1px solid black;
 }
 
-.grid3-child
+/************* grid4 child1 **************/
+
+.grid4-child1
 {
-    border:  1px solid black;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    display: flex;
 }
+
+.grid4-child1 .content-wrap
+{
+    width: 35rem;
+    height: 19.5rem;
+    padding: 3rem;
+    margin: 0;
+}
+
+.grid4-child1 .content-wrap:hover
+{
+    background-color: red;
+    color: white;
+}
+
+.grid4-child1 .content-wrap:hover a
+{
+    background-color: white;
+    color: black;
+}
+
+.grid4-child1-header
+{
+    margin-top: 4rem;
+}
+
+.grid4-child1-header h3
+{
+    font-size: 1.5rem;
+    margin: 0 0 1rem;
+    letter-spacing: 0.5rem;
+}
+
+.grid4-child1-header p
+{
+    font-size: 1rem;
+    margin-bottom: 3rem;
+}
+
+.grid4-child1-header a
+{
+    font-size: 1rem;
+    margin: 1.5rem 0 0;
+    padding: 0.7rem 2rem;
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
+
+.grid4-child1-header a:hover
+{
+    background-color: white;
+    color: black;
+}
+
+/************** grid4 child2 *****************/
+
+.grid4-child1-header
+{
+    margin-left: 2rem;
+}
+
+.grid4-child2:hover
+{
+    background-color: red;
+    color: white;
+}
+
+.grid4-child2:hover a
+{
+    background-color: white;
+    color: black;
+}
+
+/************** grid4 child3 *****************/
+
+.grid4-child1-header
+{
+    margin-left: 2rem;
+}
+
+.grid4-child3:hover
+{
+    background-color: red;
+    color: white;
+}
+
+.grid4-child3:hover a
+{
+    background-color: white;
+    color: black;
+}
+
+/****************** footer ********************/
 
