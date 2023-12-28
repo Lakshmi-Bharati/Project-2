@@ -438,6 +438,7 @@ header{
     font-size: 2.5rem;
     font-weight: 100;
     margin-top: 2.5rem;
+    letter-spacing: 0.5rem;
 }
 
 .content2 p
@@ -494,3 +495,137 @@ header{
 {
     color: white;
 }
+
+/**************img slider 2 ****************/
+
+.img-slider2
+{
+    width: 100%;
+    height:95vh;
+    margin-top: 5rem;
+    border: 1px black solid;  
+}
+
+.img-slide2
+{
+    width: 100%;
+    height:95vh;
+    background-image: url(images/slide\ img4.jpg);
+    background-size: cover; 
+    display: flex;
+    justify-content: center;
+}
+
+.img-slide2 .content
+{
+    color: white;
+    margin-top: 3rem;
+    line-height: 3rem;
+}
+
+.img-slide2 .content h2
+{
+    font-size: 2.5rem;
+    letter-spacing: 0.5rem;
+}
+
+.img-slide2 .content p
+{
+    font-size: 1.2rem;
+    margin-left: 6.5rem;
+}
+
+/************** section 2 **************/
+
+.section2
+{
+    width: 100%;
+    height: 47rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    background-image: linear-gradient(white, green);
+    display: flex;
+    justify-content: center;
+}
+
+.parent
+{
+    width: 83rem;
+    height: 47rem;
+}
+
+.section2 .parent h2
+{
+    font-size: 2.5rem;
+    letter-spacing: 0.5rem;  
+}
+
+.section2 .parent p
+{
+    font-size: 1.2rem; 
+    margin-bottom: 3rem;  
+}
+
+.parent-grid
+{
+    width: 83rem;
+    height: 34rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    column-gap: 0.5rem;
+    margin-left: -3.9rem;
+}
+
+.child-header
+{
+    padding: 1.5rem;
+    height: 5rem ;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.child-grid img
+{
+    height: 31.4rem;
+    cursor: pointer;
+}
+
+/********************section 3 **************/
+
+.section3
+{
+    width: 100%;
+    height: 47rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.sec3-text
+{
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+}
+
+.grid3-parent
+{
+    width: 83rem;
+    height: 34rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    column-gap: 0.5rem;
+    margin-left: 18rem;
+    border: 1px solid black;
+}
+
+.grid3-child
+{
+    border:  1px solid black;
+}
+
