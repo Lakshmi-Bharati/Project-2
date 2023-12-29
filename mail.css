@@ -1,0 +1,142 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+/******************************Header********************************************/
+
+header{
+    background-color: black;
+    width: 100%;
+}
+
+.container
+{
+    width: 90%;
+    height: 4.7rem;
+    color: white;
+    font-size: 1rem;
+    padding: 0px 0.75rem;
+    margin: 0px 8.5rem;
+}
+
+.wrap
+{
+    width: 88%;
+    height: 4.7rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.wrap ul
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.wrap ul li
+{
+    list-style: none;
+    margin: 1.5rem;
+}
+
+.wrap ul li a
+{
+    color: white;
+    text-decoration: none;
+}
+
+.wrap ul li:hover a, .wrap ul li:hover span
+{
+    color: red;
+}
+
+.wrap p
+{
+    color: white;
+    font-family: Satisfy;
+    cursor: pointer;
+    font-size: 1.5rem;
+    padding-right: 2rem;
+}
+
+/************ hover effect ***************/
+
+        .mega-div
+        {
+            display: none;
+        }
+
+        .wrap ul li:hover .mega-div
+        {
+            display: block;
+            position: absolute;
+            top: -4rem;
+            width: 100%;
+            height: 24rem;
+            display: flex;
+            justify-content: center;
+            padding: 3.75rem 0 2rem;
+            background-color: black;
+            margin-top: 8rem;
+            left: 0rem;
+        }
+
+
+        .wrap ul li:hover .wrap-container
+        {
+            width: 90%;
+            height: 18rem;
+            display: flex;
+            justify-content: center;
+            margin: 0 11.625rem;
+            padding: 2rem 0;
+        }
+
+        .wrap ul li:hover .center-div
+        {
+            width: 57rem;
+            height: 14rem;
+            display: flex;
+        }
+
+        .wrap ul li:hover .center-div ul
+        {
+            width: 19rem;
+            height: 14.5rem;
+            font-size: 0.9rem;
+            display: block;
+        }
+
+        .wrap ul li:hover .image-wrap img
+        {
+            width: 22rem;
+            height: 12rem;
+            margin-left: 14rem;
+            
+        }
+
+        .wrap ul li:hover .center-div ul li
+        {
+            list-style: none;
+            padding: 0.5rem;
+            margin-left: -2.3rem;
+            margin-top: -1rem;
+        }
+
+        .wrap ul li:hover .center-div ul li a
+        {
+            text-decoration: none;
+            color: white;
+        }
+
+        .wrap ul li:hover .center-div ul li:hover a
+        {
+            color: #FFF78A;
+            text-decoration: underline;
+        }
