@@ -1015,12 +1015,12 @@ header{
     width: 23rem;
     height: 1rem;
     display: flex;
-    justify-content: space-evenly;
 }
 
 .bottom-icon li
 {
-    list-style: none; 
+    list-style: none;
+    margin: 0.9rem; 
 }
 
 .bottom-icon li a
@@ -1029,6 +1029,11 @@ header{
     text-decoration: none;
 }
 
+.bottom-icon li a img
+{
+    width: 1.5rem;
+    height: 1.5rem;
+}
 /**************** copyright *****************/
 
 .copyright
