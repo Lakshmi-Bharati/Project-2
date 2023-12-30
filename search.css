@@ -57,15 +57,13 @@ form input
 {
     width: 65rem;
     height: 3rem;
-    box-shadow: none;
-    outline: none;
+    border: 1px solid black;
     border-bottom: 1px white solid;
     background-color: black;
     text-decoration: underline;
     color: white;
     font-size: 1rem;  
     padding: 0.625rem 5rem 0.625rem 2.20rem;
-    margin: 0;
     float: left;
 }
 
@@ -85,7 +83,7 @@ form input
 .label
 {
     position: relative;
-    left: 70rem;
+    left: 65rem;
     top: -2rem;
 }
 
