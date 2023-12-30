@@ -262,6 +262,11 @@ header{
     padding: 0;
 }
 
+.middle-nav a
+{
+    color: white;
+}
+
 .middle-nav a:hover
 {
     text-decoration: underline;
