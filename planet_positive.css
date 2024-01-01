@@ -322,7 +322,7 @@ header{
     .frame-div
     {
         width: 100%;
-        height: 40rem;
+        height: auto;
         margin-top: 1rem;
         display: flex;
         justify-content: center;
@@ -331,7 +331,7 @@ header{
     .section4-content
         {
             width: 80rem;
-            height: 40rem;
+            height: auto;
             display: grid;
             grid-template-columns: repeat(2, 1fr);
             grid-template-rows: repeat(2, 1fr);
@@ -354,11 +354,56 @@ header{
         width: 34.5rem;
         height: 3rem;
         position: absolute;
-        bottom: 2rem;
+        bottom: 1rem;
         left: 2rem;
     }
 
     .section4-child-text p a
+    {
+        color: white;
+        text-decoration: none;
+    }
+
+    /*********************** section 5 **************/
+
+    .section5
+    {
+        width: 100%;
+        height: 60rem;
+        padding: 3rem 0 0;
+    }
+
+    .section5-content
+        {
+            width: 80rem;
+            height: auto;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            gap: 1rem;
+        }
+
+    .section5-grid-child
+    {
+        position: relative;
+    }
+
+    .section5-grid-child a img
+    {
+        width: 100%;
+        height: 100%;
+    }
+
+    .section5-child-text
+    {
+        width: 34.5rem;
+        height: 3rem;
+        position: absolute;
+        bottom: 2rem;
+        left: 2rem;
+    }
+
+    .section5-child-text p a
     {
         color: white;
         text-decoration: none;
