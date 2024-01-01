@@ -175,3 +175,119 @@ header{
                 background-image: url(images/people\ img3.jpg);
             }
         }
+
+    /********************section2*********************/
+
+    .section2
+    {
+        width: 100%;
+        height: 5rem;
+        padding: 3rem 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .section2-links
+    {
+        width: 60%;
+        height: 1.5rem;
+    }
+
+    .section2-links a
+    {
+        text-decoration: none;
+        color: #999999;
+    }
+
+    /********************section3****************/
+
+    .section3
+    {
+        width: 100%;
+        height: 49rem;
+        padding: 3rem 0;
+    }
+
+    .section3-header
+    {
+        width: 100%;
+        height: 5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section3-header h2
+    {
+        font-size: 2.5rem;
+        margin: 0 0 0.5rem;
+        letter-spacing: 0.3rem;
+    }
+
+    .section3-container
+    {
+        width: 100%;
+        height: 40rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    /**********************section3 grid**************/
+    .section3-grid
+    {
+        width: 60%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 1rem;
+    }
+
+    .section3-child img
+    {
+        width: 100%;
+        height: 100%;
+    }
+
+    .section3-grid-child1
+    {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+
+    /*******************section4******************/
+
+    .section4
+    {
+        width: 100%;
+        height: 65rem;
+        padding: 3rem 0;
+        border: 1px solid black;
+    }
+
+    .section4-header
+    {
+        width: 100%;
+        height: 7rem;
+        text-align: center;
+        border: 1px solid black;
+    }
+
+    .section4-header h2
+    {
+        font-size: 2.5rem;
+        letter-spacing: 0.3rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .section4-header p
+    {
+        margin-bottom: 0.5rem;
+    }
+
+    .section4-header a
+    {
+        color: #dd052b;
+    }
