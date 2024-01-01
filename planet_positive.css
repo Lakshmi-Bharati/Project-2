@@ -1,0 +1,365 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+/******************************Header********************************************/
+
+header{
+    background-color: black;
+    width: 100%;
+}
+
+.container
+{
+    width: 90%;
+    height: 4.7rem;
+    color: white;
+    font-size: 1rem;
+    padding: 0px 0.75rem;
+    margin: 0px 8.5rem;
+}
+
+.wrap
+{
+    width: 88%;
+    height: 4.7rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.wrap ul
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.wrap ul li
+{
+    list-style: none;
+    margin: 1.5rem;
+}
+
+.wrap ul li a
+{
+    color: white;
+    text-decoration: none;
+}
+
+.wrap ul li:hover a, .wrap ul li:hover span
+{
+    color: red;
+}
+
+.wrap p
+{
+    color: white;
+    font-family: Satisfy;
+    cursor: pointer;
+    font-size: 1.5rem;
+    padding-right: 2rem;
+}
+
+/************ hover effect ***************/
+
+        .mega-div
+        {
+            display: none;
+        }
+
+        .wrap ul li:hover .mega-div
+        {
+            display: block;
+            position: absolute;
+            top: -5rem;
+            width: 100%;
+            height: 24rem;
+            display: flex;
+            justify-content: center;
+            padding: 3.75rem 0 2rem;
+            background-color: black;
+            margin-top: 8rem;
+            left: 0rem;
+        }
+
+
+        .wrap ul li:hover .wrap-container
+        {
+            width: 90%;
+            height: 18rem;
+            display: flex;
+            justify-content: center;
+            margin: 0 11.625rem;
+            padding: 2rem 0;
+        }
+
+        .wrap ul li:hover .center-div
+        {
+            width: 57rem;
+            height: 14rem;
+            display: flex;
+        }
+
+        .wrap ul li:hover .center-div ul
+        {
+            width: 19rem;
+            height: 14.5rem;
+            font-size: 0.9rem;
+            display: block;
+        }
+
+        .wrap ul li:hover .image-wrap img
+        {
+            width: 22rem;
+            height: 12rem;
+            margin-left: 14rem;
+            
+        }
+
+        .wrap ul li:hover .center-div ul li
+        {
+            list-style: none;
+            padding: 0.5rem;
+            margin-left: -2.3rem;
+            margin-top: -1rem;
+        }
+
+        .wrap ul li:hover .center-div ul li a
+        {
+            text-decoration: none;
+            color: white;
+        }
+
+        .wrap ul li:hover .center-div ul li:hover a
+        {
+            color: #FFF78A;
+            text-decoration: underline;
+        }
+
+        /************************section1 *****************/
+
+    .section1
+    {
+        width: 100%;
+        height: 53rem;
+        font-size: 1rem;
+    }
+
+    .section1-img
+    {
+        width: 100%;
+        height: 53rem;
+        background-image: url(images/planet\ slide1.jpg);
+        background-size: cover;
+        position: relative;
+        animation: slide 30s infinite ease-in-out;
+    }
+
+    @keyframes slide
+        {
+            0%
+            {
+                background-image: url(images/planet\ slide1.jpg);
+            }
+            50%
+            {
+                background-image: url(images/planet\ slide2.jpg);
+            }
+            100%
+            {
+                background-image: url(images/planet\ slide3.jpg);
+            }
+        }
+
+    /********************section2*********************/
+
+    .section2
+    {
+        width: 100%;
+        height: 5rem;
+        padding: 3rem 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .section2-links
+    {
+        width: 60%;
+        height: 1.5rem;
+    }
+
+    .section2-links a
+    {
+        text-decoration: none;
+        color: #999999;
+    }
+
+    /******************** section 3 *******************/
+
+    .section3
+    {
+        width: 100%;
+        height: 62rem;
+        padding: 3rem 0 0;
+    }
+
+    .section-header
+    {
+        width: 100%;
+        height: 6rem;
+        padding: 0 0 2rem;
+        text-align: center;
+    }
+
+    .section-header h2
+    {
+        font-size: 2.5rem;
+        margin: 0 0 0.5rem;
+    }
+
+    .section-header p
+    {
+        font-size: 1.2rem;
+    }
+
+    .section3-container
+    {
+        width: 100%;
+        height: 54rem;
+        display: flex;
+    }
+
+    .left
+    {
+        width: 28rem;
+        height: 48rem;
+        background-color: #dd052b;
+        padding: 3rem 165px 3rem 3rem;
+    }
+
+    .section3-content-wrap
+    {
+        width: 24rem;
+        height: 9rem;
+        margin-top: 20rem;
+        color: white;
+    }
+
+    .section3-content-wrap h2
+    {
+        font-size: 2rem;
+        margin: 0 0 0.5rem;
+    }
+
+    .section3-content-wrap p
+    {
+        font-size: 1rem;
+        margin: 0 0 0.5rem;
+    }
+    
+    .count
+    {
+        width: 53px;
+        height: 25px;
+        font-size: 1.5rem;
+        margin-top: 20rem;
+    }
+
+    .right
+    {
+        width: 78rem;
+        height: 53.9rem;
+        background-image: url(images/solar.jpg);
+        background-size: cover;
+    }
+
+    /********************** section 4 *******************/
+
+    .section4
+    {
+        width: 100%;
+        height: 60rem;
+        padding: 3rem 0 0;
+        background-color: #f6f5f0;
+    }
+
+    .section-header #heading
+    {
+        font-size: 1.5rem;
+    }
+
+    .nav 
+    {
+        width: 100%;
+        height: 1.5rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    .nav li
+    {
+        width: 16rem;
+        height: 1.5rem;
+        padding: 0 1.7rem;
+        list-style: none;
+    }
+
+    .nav li a
+    {
+        color: #808080;
+    }
+
+    .nav li a:hover
+    {
+        color: #dd052b;
+    }
+
+    .frame-div
+    {
+        width: 100%;
+        height: 40rem;
+        margin-top: 1rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    .section4-content
+        {
+            width: 80rem;
+            height: 40rem;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            gap: 1rem;
+        }
+
+    .section4-grid-child
+    {
+        position: relative;
+    }
+
+    .section4-grid-child a img
+    {
+        width: 100%;
+        height: 100%;
+    }
+
+    .section4-child-text
+    {
+        width: 34.5rem;
+        height: 3rem;
+        position: absolute;
+        bottom: 2rem;
+        left: 2rem;
+    }
+
+    .section4-child-text p a
+    {
+        color: white;
+        text-decoration: none;
+    }
