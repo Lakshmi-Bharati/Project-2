@@ -1,0 +1,511 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+/******************************Header********************************************/
+
+header{
+    background-color: black;
+    width: 100%;
+}
+
+.container
+{
+    width: 90%;
+    height: 4.7rem;
+    color: white;
+    font-size: 1rem;
+    padding: 0px 0.75rem;
+    margin: 0px 8.5rem;
+}
+
+.wrap
+{
+    width: 88%;
+    height: 4.7rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.wrap ul
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.wrap ul li
+{
+    list-style: none;
+    margin: 1.5rem;
+}
+
+.wrap ul li a
+{
+    color: white;
+    text-decoration: none;
+}
+
+.wrap ul li:hover a, .wrap ul li:hover span
+{
+    color: red;
+}
+
+.wrap p
+{
+    color: white;
+    font-family: Satisfy;
+    cursor: pointer;
+    font-size: 1.5rem;
+    padding-right: 2rem;
+}
+
+/************ hover effect ***************/
+
+        .mega-div
+        {
+            display: none;
+        }
+
+        .wrap ul li:hover .mega-div
+        {
+            display: block;
+            position: absolute;
+            top: -5rem;
+            width: 100%;
+            height: 24rem;
+            display: flex;
+            justify-content: center;
+            padding: 3.75rem 0 2rem;
+            background-color: black;
+            margin-top: 8rem;
+            left: 0rem;
+        }
+
+
+        .wrap ul li:hover .wrap-container
+        {
+            width: 90%;
+            height: 18rem;
+            display: flex;
+            justify-content: center;
+            margin: 0 11.625rem;
+            padding: 2rem 0;
+        }
+
+        .wrap ul li:hover .center-div
+        {
+            width: 57rem;
+            height: 14rem;
+            display: flex;
+        }
+
+        .wrap ul li:hover .center-div ul
+        {
+            width: 19rem;
+            height: 14.5rem;
+            font-size: 0.9rem;
+            display: block;
+        }
+
+        .wrap ul li:hover .image-wrap img
+        {
+            width: 22rem;
+            height: 12rem;
+            margin-left: 14rem;
+            
+        }
+
+        .wrap ul li:hover .center-div ul li
+        {
+            list-style: none;
+            padding: 0.5rem;
+            margin-left: -2.3rem;
+            margin-top: -1rem;
+        }
+
+        .wrap ul li:hover .center-div ul li a
+        {
+            text-decoration: none;
+            color: white;
+        }
+
+        .wrap ul li:hover .center-div ul li:hover a
+        {
+            color: #FFF78A;
+            text-decoration: underline;
+        }
+
+        /**********************section1*********************/
+
+        .section1
+        {
+            width: 100%;
+            height: 56rem;
+            background-image: url(images/mission\ img1.png);
+            background-size: cover;
+            position: relative;
+        }
+
+        .section1-header
+        {
+            width: 60rem;
+            height: 7rem;
+            position: absolute;
+            top: 10rem;
+            left: 8rem;
+        }
+
+        .section1-header h1
+        {
+            font-size: 2.5rem;
+            margin: 0 0 0.5rem;
+        }
+
+        .section1-header p
+        {
+            margin-bottom: 3rem;
+        }
+
+        .section1-header a
+        {
+            color: white;
+            background-color: #dd052b;
+            text-decoration: none;
+            padding: 0.7rem 2rem;
+            font-weight: bold;
+        }
+
+        .section1-header a:hover
+        {
+            color: black;
+            background-color: white;
+            font-weight: bold;
+        }
+
+        /********************section2*********************/
+
+        .section2
+        {
+            width: 100%;
+            height: 5rem;
+            padding: 3rem 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        .section2-links
+        {
+            width: 60%;
+            height: 1.5rem;
+        }
+
+        .section2-links a
+        {
+            text-decoration: none;
+            color: #999999;
+        }
+
+        .section3
+        {
+            width: 100%;
+            height: 56rem;
+            padding: 3rem 0 0;
+        }
+
+        .section-header
+        {
+            width: 100%;
+            height: 4rem;
+            padding: 0 0 2rem;
+            text-align: center;
+        }
+
+        .section-header h2
+        {
+            font-size: 2.5rem;
+            margin: 0 0 0.5rem;
+        }
+
+        .section-header p
+        {
+            font-size: 1.2rem;
+        }
+
+        .section3-img
+        {
+            width: 100%;
+            height: 44.1rem;
+            background-image: url(images/mission\ img2.png);
+            background-size: cover;
+        }
+
+        /**********************section4*****************/
+
+        .section4
+        {
+            width: 100%;
+            height: 40rem;
+            padding: 3rem 0;
+            display: flex;
+            justify-content: center;
+            background-color: #f6f5f0;
+        }
+
+        .section4-container
+        {
+            width: 80rem;
+            height: 39rem;
+        }
+
+        .section4-content
+        {
+            width: 100%;
+            height: 30rem;
+            display: flex;
+        }
+
+        .section4-slides
+        {
+            width: 20rem;
+            height: 100%;
+            border: 1px solid black;
+            margin: 0 0.5rem;
+        }
+
+        .section4-slides-header
+        {
+            width: 17.7rem;
+            height: 7rem;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        .section4-slides-header h1
+        {
+            color: white;
+            font-size: 1rem;
+            margin: 0 0 2rem;
+            padding: 0.7rem;
+            background-color: #dd052b;
+        }
+
+        .section4-slides-header h3
+        {
+            font-size: 0.9rem;
+        }
+
+        .section4-slides img
+        {
+            width: 100%;
+            height: 21rem;
+        }
+
+        /********************section5*******************/
+
+        .section5
+        {
+            width: 100%;
+            height: 598px;
+            padding: 3rem 0;
+            background-color: #f6f5f0;
+        }
+
+        .section-container
+        {
+            width: 100%;
+            height: 25rem;
+            display: flex;
+            justify-content: center;
+        }
+
+        .section-content
+        {
+            width: 78.5rem;
+            height: 100%;
+            display: flex;
+        }
+
+        .section5-img
+        {
+            width: 46rem;
+            height: 100%;
+        }
+
+        .section5-img img
+        {
+            width: 46rem;
+            height: 100%;
+        }
+
+        .section5-text
+        {
+            width: 33rem;
+            height: 75.5%;
+            padding: 3rem 3rem 3rem 3.75rem;
+            background-color: #dd052b;
+            color: white;
+        }
+
+        .section5-text p
+        {
+            font-size: 1.5rem;
+            margin: 2rem 0 2rem;
+        }
+
+        .section5-text strong
+        {
+            font-size: 2rem;
+        }
+
+        /*********************section6*******************/
+
+        .section6
+        {
+            width: 100%;
+            height: 42rem;
+            padding: 3rem 0;
+            background-color: #f6f5f0;
+        }
+
+        .section6-header
+        {
+            width: 100%;
+            height: 9rem;
+            margin: 3rem 0 0;
+            padding: 0 0 2rem;
+            text-align: center;
+        }
+
+        .section6-header h2
+        {
+            font-size: 2.5rem;
+            margin: 0 0 0.5rem;
+        }
+
+        .section6-header p
+        {
+            font-size: 1.2rem;
+        }
+
+
+        .section6-header span, strong
+        {
+            font-size: 3rem;
+            font-weight: bold;
+            margin-top: 2rem;
+        }
+
+        .section6-img
+        {
+            width: 46rem;
+            height: 100%;
+        }
+
+        .section6-img img
+        {
+            width: 46rem;
+            height: 100%;
+        }
+
+        .section6-text
+        {
+            background-color: #dd052b;
+            color: white;
+            padding: 0 3rem;
+        }
+
+        .section6-text h3
+        {
+            font-size: 2.3rem;
+            margin: 5rem 0 0.5rem;
+        }
+
+        .section6-text span h5
+        {
+            font-size: 12.8px;
+            
+        }
+
+        .section6-text span
+        {
+            margin-bottom: 3rem;
+        }
+
+        .section6-text p
+        {
+            margin-top: 1.5rem;
+            font-size: 1.3rem;
+        }
+
+        /*********************section7***************/
+
+        .section7
+        {
+            width: 100%;
+            height: 25rem;
+            padding: 3rem 0 0;
+        }
+
+        .section7-list
+        {
+            width: 100%;
+            height: 16rem;
+            display: flex;
+            justify-content: center;
+            margin-top: 3rem;
+        }
+
+        .section7-list li
+        {
+            list-style: none;
+            padding: 0 0.7rem 2rem;
+            margin: 0 0 0 1rem;
+        }
+
+        .section7-list .list1
+        {
+            margin-top: 1rem;
+        }
+        
+        /***********************section8*****************/
+
+        .section8
+        {
+            width: 100%;
+            height: 26rem;
+            padding: 0 0 3rem;
+            border: 1px solid black;
+        }
+
+        .section8-container
+        {
+            width: 100%;
+            height: 22rem;
+            display: flex;
+            justify-content: center;
+            border: 1px solid red;
+        }
+
+        .section8-list
+        {
+            width: 78.5rem;
+            height: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            border: 1px solid green;
+        }
+
+        .section8-list li
+        {
+            width: 7.5rem;
+            height: 6rem;
+            padding: 0 0.7rem 2rem;
+            margin: 0 0 0 1rem;
+            border: 1px solid orangered;
+        }
