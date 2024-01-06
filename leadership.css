@@ -390,4 +390,231 @@ header{
             padding: 0.5rem 2rem;
          }
 
+         /*************************section5******************/
+
+         .section5
+         {
+            width: 100%;
+            height: 58rem;
+            padding: 3rem 0 0;
+         }
+
+         .section-header
+         {
+            width: 100%;
+            height: 5rem;
+            text-align: center;
+         }
          
+         .section-header h2
+         {
+            font-size: 2.5rem;
+            margin: 0 0 0.5rem;
+         }
+
+         .section5-slider
+         {
+            width: 100%;
+            height: 50rem;
+            background-image: url(images/leadership\ img3.png);
+            background-size: cover;
+            animation: slide 15s infinite ease-in-out;
+         }
+
+         @keyframes slide
+         {
+            0%
+            {
+                background-image: url(images/leadership\ img3.png);
+            } 
+            25%
+            {
+                background-image: url(images/leadership\ img4.png);
+            } 
+            50%
+            {
+                background-image: url(images/leadership\ img5.png);
+            } 
+            75%
+            {
+                background-image: url(images/leadership\ img6.png);
+            }
+            100%
+            {
+                background-image: url(images/leadership\ img3.png);
+            }     
+         }
+
+         .section5-button
+         {
+            width: 100%;
+            height: 2rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+         }
+
+         .section5-button a
+         {
+            color: #dd052b;
+         }
+
+         /****************** footer ********************/
+
+        .main-footer
+        {
+            width: 100%;
+            height: 45.5rem;
+            background-color: #1c1c1c;
+            color: white;
+        }
+
+        .footer-div1
+        {
+            width: 80rem;
+            height: 8rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 16rem;
+        }
+
+        .footer-logo
+        {
+            color: white;
+            font-family: Satisfy;
+            font-size: 25px;
+            cursor: pointer;
+            background-image: linear-gradient(orange, purple);
+        }
+
+        .footer-content
+        {
+            width: 82rem;
+            margin-left: 16rem;
+            height: 31rem;
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .head 
+        {
+            width: 12rem;
+            height: auto;
+        }
+
+        .head a
+        {
+            color: white;
+            text-decoration: none;
+            font-size: 0.9rem;
+        }
+
+        .head ul li
+        {
+            font-size: 0.9rem;
+            margin: 1rem 0 0;
+            list-style: none;
+        }
+        .footer-list li a
+        {
+            color: #808080;
+        }
+
+        .footer-list li:hover a
+        {
+            color: white;
+        }
+
+        /************* footer div2 ***************/
+
+        .footer-divs
+        {
+            width: 82rem;
+            height: 1.5rem;
+            display: flex;
+        }
+
+        .footer-div2
+        {
+            width: 36rem;
+            height: 1rem;
+            padding: 0 0.75rem;
+            font-size: 1rem;
+            color: white;
+            margin-left: 16rem;
+        }
+
+        .footer-div2 ul 
+        {
+            width: 34rem;
+            height: 1rem;
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .bottom-nav li
+        {
+            list-style: none;
+            padding: 0 1rem;
+        }
+
+        .bottom-nav li a
+        {
+            color: white;
+            font-weight: lighter;
+            font-style: italic;
+            text-decoration: none;
+            font-size: 0.85rem;
+        }
+
+        /*************** footer icon div *****************/
+
+        .footer-div3
+        {
+            width: 30rem;
+            height: 1rem;
+            padding: 0 0.75rem;
+            font-size: 1rem;
+            color: white;
+            margin-left: 16rem;
+        }
+
+        .footer-div3 ul 
+        {
+            width: 23rem;
+            height: 1rem;
+            display: flex;
+        }
+
+        .bottom-icon li
+        {
+            list-style: none;
+            margin: 0.9rem; 
+        }
+
+        .bottom-icon li a
+        {
+            color: white;
+            text-decoration: none;
+        }
+
+        .bottom-icon li a img
+        {
+            width: 1.5rem;
+            height: 1.5rem;
+        }
+        /**************** copyright *****************/
+
+        .copyright
+        {
+            width: 100%;
+            height: 2.5rem;
+            background-color: #dd052c;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 0.8rem;
+            margin-top: 2.5rem;
+            font-weight: bold;
+        }
