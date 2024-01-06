@@ -635,7 +635,50 @@ header{
         margin-left: 21rem;
         display: flex;
         margin-top: 0.5rem;
-        border: 1px solid green;
+        border: 1px solid black;
+    }
+
+    .inquity-text2
+    {
+        width: 36.5rem;
+        height: 11rem;
+        padding: 0 3rem 0 0;
+        margin-top: 6.5rem;
+        margin-left: 2rem;
+    }
+
+    .inquity-text2 h4
+    {
+        font-size: 1.5rem;
+        margin: 0 0 0.5rem;
+    }
+
+    .inquity-text2 p
+    {
+        margin: 0 0 1rem;
+        padding: 0 10rem 0 0;
+    }
+
+    .inquity-text2 form #email
+    {
+        width: 25rem;
+        height: 2.6rem;
+        padding: 0 1rem;
+        background-color: #e8e8e8;
+        border: 1px solid white;
+        outline: none;
+    }
+
+    .inquity-text2 form #submit
+    {
+        width: 8rem;
+        height: 2.7rem;
+        margin-left: -0.4rem;
+        color: white;
+        background-color: #dd052b;
+        padding: 0 1rem;
+        border: 1px solid white;
+        cursor: pointer;
     }
 
     /****************** footer ********************/
