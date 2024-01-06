@@ -157,7 +157,7 @@ header{
         background-image: url(images/planet\ slide1.jpg);
         background-size: cover;
         position: relative;
-        animation: slide 30s infinite ease-in-out;
+        animation: slide 20s infinite ease-in-out;
     }
 
     @keyframes slide
