@@ -157,7 +157,7 @@ header{
         background-image: url(images/rise\ img3.webp);
         background-size: cover;
         position: relative;
-        animation: change 30s infinite ease-in-out;
+        animation: change 20s infinite ease-in-out;
     }
 
     @keyframes change
