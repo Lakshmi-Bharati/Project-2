@@ -225,10 +225,9 @@ header{
         .section3
         {
             width: 100%;
-            height: 500rem;
+            height: 296rem;
             padding: 3rem 0;
             background-color: #f6f5f0;
-            border: 1px solid black;
         }
 
         .section-header
@@ -236,7 +235,6 @@ header{
             width: 100%;
             height: 5rem;
             text-align: center;
-            border: 1px solid black;
         }
 
         .section-header h2
@@ -256,14 +254,12 @@ header{
             height: 98%;
             display: flex;
             justify-content: center;
-            border: 1px solid red;
         }
 
         .section3-events
         {
             width: 70%;
             height: 100%;
-            border: 1px solid blue;
         }
 
         .section3-events-banner
@@ -271,7 +267,56 @@ header{
             width: 100%;
             height: 45rem;
             margin-top: 3rem;
-            border: 1px solid green;
+            position: relative;
         }
 
-       
+        .section3-events-banner img
+        {
+            width: 100%;
+            height: 100%;
+        }
+
+        .play-button
+        {
+            width: 3rem;
+            height: 3rem;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+        }
+
+        .play-button a img
+        {
+            width: 3rem;
+            height: 3rem;
+        }
+
+        .section3-header
+        {
+            width: 46rem;
+            height: 10.5rem;
+            position: absolute;
+            bottom: 50%;
+            left: 4rem;
+            color: white;
+        }
+
+        .section3-header h2
+        {
+            font-size: 2.5rem;
+            margin: 0 0 0.5rem;
+        }
+
+        .section3-header p
+        {
+            font-size: 1.2rem;
+            margin: 0 0 1rem;
+        }
+
+        .section4
+        {
+            width: 100%;
+            height: 33rem;
+            padding: 3rem 0;
+            border: 1px solid black;
+        }
