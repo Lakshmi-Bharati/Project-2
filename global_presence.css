@@ -1,0 +1,309 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+/******************************Header********************************************/
+
+header{
+    background-color: black;
+    width: 100%;
+}
+
+.container
+{
+    width: 90%;
+    height: 4.7rem;
+    color: white;
+    font-size: 1rem;
+    padding: 0px 0.75rem;
+    margin: 0px 8.5rem;
+}
+
+.wrap
+{
+    width: 88%;
+    height: 4.7rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.wrap ul
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.wrap ul li
+{
+    list-style: none;
+    margin: 1.5rem;
+}
+
+.wrap ul li a
+{
+    color: white;
+    text-decoration: none;
+}
+
+.wrap ul li:hover a, .wrap ul li:hover span
+{
+    color: red;
+}
+
+.wrap p
+{
+    color: white;
+    font-family: Satisfy;
+    cursor: pointer;
+    font-size: 1.5rem;
+    padding-right: 2rem;
+}
+
+/************ hover effect ***************/
+
+        .mega-div
+        {
+            display: none;
+        }
+
+        .wrap ul li:hover .mega-div
+        {
+            display: block;
+            position: absolute;
+            top: -5rem;
+            width: 100%;
+            height: 24rem;
+            display: flex;
+            justify-content: center;
+            padding: 3.75rem 0 2rem;
+            background-color: black;
+            margin-top: 8rem;
+            left: 0rem;
+        }
+
+
+        .wrap ul li:hover .wrap-container
+        {
+            width: 90%;
+            height: 18rem;
+            display: flex;
+            justify-content: center;
+            margin: 0 11.625rem;
+            padding: 2rem 0;
+        }
+
+        .wrap ul li:hover .center-div
+        {
+            width: 57rem;
+            height: 14rem;
+            display: flex;
+        }
+
+        .wrap ul li:hover .center-div ul
+        {
+            width: 19rem;
+            height: 14.5rem;
+            font-size: 0.9rem;
+            display: block;
+        }
+
+        .wrap ul li:hover .image-wrap img
+        {
+            width: 22rem;
+            height: 12rem;
+            margin-left: 14rem;
+            
+        }
+
+        .wrap ul li:hover .center-div ul li
+        {
+            list-style: none;
+            padding: 0.5rem;
+            margin-left: -2.3rem;
+            margin-top: -1rem;
+        }
+
+        .wrap ul li:hover .center-div ul li a
+        {
+            text-decoration: none;
+            color: white;
+        }
+
+        .wrap ul li:hover .center-div ul li:hover a
+        {
+            color: #FFF78A;
+            text-decoration: underline;
+        }
+
+        /************************section1 *****************/
+
+        .section1
+        {
+            width: 100%;
+            height: 53rem;
+            font-size: 1rem;
+        }
+
+        .section1-img
+        {
+            width: 100%;
+            height: 53rem;
+            background-image: url(images/global\ img1.png);
+            background-size: cover;
+            position: relative;
+            animation: slide 20s infinite ease-in-out;
+        }
+
+        @keyframes slide
+            {
+                0%
+                {
+                    background-image: url(images/global\ img1.png);
+                }
+                50%
+                {
+                    background-image: url(images/global\ img2.png);
+                }
+                100%
+                {
+                    background-image: url(images/global\ img3.png);
+                }
+            }
+
+    /********************section2*********************/
+
+       .section2
+       {
+           width: 100%;
+           height: 6rem;
+           padding: 3rem 0;
+       }
+
+       .section2-contain
+       {
+            width: 100%;
+            height: 3rem;
+            display: flex;
+            justify-content: center;
+       }
+   
+       .section2-links
+       {
+           width: 70%;
+           height: 1.5rem;
+       }
+   
+       .section2-links a
+       {
+           text-decoration: none;
+           color: #999999;
+       }
+
+       .section2 ul
+       {
+            width: 100%;
+            height: 1.5rem;
+            display: flex;
+            justify-content: center;
+       }
+
+       .section2 ul li
+       {
+            list-style: none;
+            margin: 0 1rem;
+       }
+
+       .section2 ul li a
+       {
+            text-decoration: none;
+            color: #808080;
+       } 
+
+       .section2 ul li a:hover
+       {
+            color: #dd052b;
+            text-decoration: underline black;
+       }
+
+       /************************section3*******************/
+
+       .section3
+       {
+            width: 100%;
+            height: 130rem;
+            padding: 0 0 3rem;
+            display: flex;
+            justify-content: center;
+            border: 1px solid black;
+       }
+
+       .section3-container
+       {
+            width: 70%;
+            height: 100%;
+            border: 1px solid red;
+       }
+
+       .section3-container h3
+       {
+            text-align: center;
+            font-size: 1.7rem;
+            margin: 0 0 2rem;
+            color: #dd052b;
+       }
+
+       .table-div
+       {
+            width: 100%;
+            height: 95%;
+            border: 1px solid green;
+       }
+
+       table
+       {
+            border-collapse: collapse;
+       }
+
+       table tr th
+       {
+            width: 27rem;
+            height: 1.5rem;
+            color: #212529;
+            background-color: #f7f5ef;
+            padding: 1rem;
+            font-size: 1.2rem;
+       }
+
+       .main-row
+       {
+            width: 27rem;
+            height: 1.3rem;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+            background-color: #666666;
+       }
+
+       .country-name td
+       {
+            width: 27rem;
+            height: 3rem;
+            padding: 1.6rem 1rem 2rem;
+       }
+
+       .country-name td a
+       {
+        color: #212529;
+        text-decoration: none;
+       }
+
+       .country-name
+       {
+            border-bottom: 1px solid black;
+       }
