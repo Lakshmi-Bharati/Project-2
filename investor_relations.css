@@ -1,0 +1,331 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+/******************************Header********************************************/
+
+header{
+    background-color: black;
+    width: 100%;
+}
+
+.container
+{
+    width: 90%;
+    height: 4.7rem;
+    color: white;
+    font-size: 1rem;
+    padding: 0px 0.75rem;
+    margin: 0px 8.5rem;
+}
+
+.wrap
+{
+    width: 88%;
+    height: 4.7rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.wrap ul
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.wrap ul li
+{
+    list-style: none;
+    margin: 1.5rem;
+}
+
+.wrap ul li a
+{
+    color: white;
+    text-decoration: none;
+}
+
+.wrap ul li:hover a, .wrap ul li:hover span
+{
+    color: red;
+}
+
+.wrap p
+{
+    color: white;
+    font-family: Satisfy;
+    cursor: pointer;
+    font-size: 1.5rem;
+    padding-right: 2rem;
+}
+
+/************ hover effect ***************/
+
+        .mega-div
+        {
+            display: none;
+        }
+
+        .wrap ul li:hover .mega-div
+        {
+            display: block;
+            position: absolute;
+            top: -5rem;
+            width: 100%;
+            height: 24rem;
+            display: flex;
+            justify-content: center;
+            padding: 3.75rem 0 2rem;
+            background-color: black;
+            margin-top: 8rem;
+            left: 0rem;
+        }
+
+
+        .wrap ul li:hover .wrap-container
+        {
+            width: 90%;
+            height: 18rem;
+            display: flex;
+            justify-content: center;
+            margin: 0 11.625rem;
+            padding: 2rem 0;
+        }
+
+        .wrap ul li:hover .center-div
+        {
+            width: 57rem;
+            height: 14rem;
+            display: flex;
+        }
+
+        .wrap ul li:hover .center-div ul
+        {
+            width: 19rem;
+            height: 14.5rem;
+            font-size: 0.9rem;
+            display: block;
+        }
+
+        .wrap ul li:hover .image-wrap img
+        {
+            width: 22rem;
+            height: 12rem;
+            margin-left: 14rem;
+            
+        }
+
+        .wrap ul li:hover .center-div ul li
+        {
+            list-style: none;
+            padding: 0.5rem;
+            margin-left: -2.3rem;
+            margin-top: -1rem;
+        }
+
+        .wrap ul li:hover .center-div ul li a
+        {
+            text-decoration: none;
+            color: white;
+        }
+
+        .wrap ul li:hover .center-div ul li:hover a
+        {
+            color: #FFF78A;
+            text-decoration: underline;
+        }
+
+         /************************section1 *****************/
+
+         .section1
+         {
+             width: 100%;
+             height: 53rem;
+             font-size: 1rem;
+         }
+ 
+         .section1-img
+         {
+             width: 100%;
+             height: 53rem;
+             background-image: url(images/investor\ img1.png);
+             background-size: cover;
+             position: relative;
+             animation: slide 10s infinite ease-in-out;
+         }
+ 
+         @keyframes slide
+             {
+                 0%
+                 {
+                     background-image: url(images/investor\ img1.png);
+                 }
+                 100%
+                 {
+                     background-image: url(images/investor\ img2.png);
+                 }
+             }
+
+        /*************************section2********************/
+
+        .section2
+        {
+            width: 100%;
+            height: 26rem;
+            padding: 3rem 0;        
+        }
+
+        .section-header
+        {
+            width: 100%;
+            height: 5rem;
+            text-align: center;
+        }
+
+        .section-header h2
+        {
+            font-size: 2.5rem;
+            margin: 0 0 0.5rem;
+        }
+
+        .section-header p
+        {
+            font-size: 1.2rem;
+        }
+
+        .section2-container
+        {
+            width: 100%;
+            height: 21rem;
+            display: flex;
+            justify-content: center;
+            margin-top: 1rem;
+        }
+
+        .section2-grid
+        {
+            width: 70%;
+            height: 100%;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+        }
+
+        .section2-grid-child
+        {
+            text-align: center;
+        }
+
+        .section2-grid-child h6
+        {
+            font-size: 2rem;
+            margin: 3rem 0 0.5rem;
+        }
+
+        .section2-grid-child p
+        {
+            margin: 0 0 1rem;
+        }
+
+        /***************************section3*******************/
+
+        .section3
+        {
+            width: 100%;
+            height: 40rem;
+            padding: 3rem 0;
+            background-color: #f7f5ef;
+        }
+
+        .section3-container
+        {
+            width: 100%;
+            height: 32rem;
+            display: flex;
+            justify-content: center;
+        }
+
+        .report-table
+        {
+            width: 56rem;
+            height: 100%;
+            background-color: white;
+            border: 1px solid black;
+        }
+
+        .report-table ul
+        {
+            width: 51rem;
+            height: 80%;
+            background-color: white;
+            padding: 2rem 2.5rem 1.5rem;
+        }
+
+        .report-table ul li
+        {
+            list-style: none;
+            width: 50rem;
+            height: 3rem;
+            padding: 1rem 0;
+            display: flex;
+            align-items: center;
+            font-size: 0.9rem;
+            border-bottom: 1px solid black;
+        }
+
+        .title
+        {
+            width: 29rem;
+            height: 3rem;
+            display: flex;
+            align-items: center;
+        }
+
+        .title p
+        {
+            padding: 0 0 0 2.5rem;
+        }
+
+        .icons
+        {
+            width: 191px;
+            height: 1.5rem;
+            display: flex;
+            align-items: center;
+            margin-left: 4rem;
+        }
+
+        .icons a
+        {
+            color: #dd052b;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .icons span i
+        {
+            color: #dd052b;
+            text-decoration: underline;
+            cursor: pointer;
+            margin-left: 0.5rem;
+        }
+
+        .more-text
+        {
+            width: 53rem;
+            height: 2rem;
+            padding: 1rem 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        .more-text i
+        {
+            cursor: pointer;
+        }
