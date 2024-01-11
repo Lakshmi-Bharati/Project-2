@@ -261,7 +261,7 @@ header{
        .table-div
        {
             width: 100%;
-            height: 95%;
+            height: 97%;
             border: 1px solid green;
        }
 
@@ -306,4 +306,58 @@ header{
        .country-name
        {
             border-bottom: 1px solid black;
+       }
+
+       /***********************section4***************/
+
+       .section4
+       {
+            width: 100%;
+            height: 300rem;
+            padding: 0 0 3rem;
+            display: flex;
+            justify-content: center;
+            border: 1px solid black;
+       }
+
+       .section4-container
+       {
+            width: 70%;
+            height: 100%;
+            border: 1px solid red;
+       }
+
+       .section4-container h3
+       {
+            text-align: center;
+            font-size: 1.7rem;
+            margin: 0 0 2rem;
+            color: #dd052b;
+       }
+
+       /***********************section5***************/
+
+       .section5
+       {
+            width: 100%;
+            height: 286rem;
+            padding: 0 0 3rem;
+            display: flex;
+            justify-content: center;
+            border: 1px solid black;
+       }
+
+       .section5-container
+       {
+            width: 70%;
+            height: 100%;
+            border: 1px solid red;
+       }
+
+       .section5-container h3
+       {
+            text-align: center;
+            font-size: 1.7rem;
+            margin: 0 0 2rem;
+            color: #dd052b;
        }
