@@ -140,3 +140,678 @@ header{
             color: #FFF78A;
             text-decoration: underline;
         }
+
+         /**************************section1*************/
+
+         .section1
+         {
+             width: 100%;
+             height: 53rem;
+             background-image: url(images/policies\ img1.png);
+             background-size: cover;
+             position: relative;
+         }
+ 
+         .section1-text
+         {
+             width: 923px;
+             height: 3rem;
+             color: white;
+             position: absolute;
+             top: 18rem;
+             left: 5rem;
+         }
+ 
+         .section1-text h1
+         {
+             font-size: 2.5rem;
+         }
+ 
+         /*************************section2****************/
+ 
+         .section2
+         {
+             width: 100%;
+             height: 65rem;
+             padding: 3rem 0;
+         }
+ 
+         .section2-row
+         {
+             width: 70%;
+             height: 2rem;
+             display: flex;
+             margin-left: 18rem;
+         }
+ 
+         .section2-links1
+         {
+             width: 50%;
+             height: 1.5rem;
+             display: flex;
+         }
+ 
+         .section2-links1 a
+         {
+             text-decoration: none;
+             color: #999999;
+         }
+ 
+ 
+         .section2-links2
+         {
+             width: 50%;
+             height: 1.5rem;
+             display: flex;
+         }
+ 
+         .section2-links2 ul
+         {
+             width: 100%;
+             height: 2rem;
+             display: flex;
+         }
+ 
+         .section2-links2 ul li
+         {
+             list-style: none;
+             margin: 0 1rem;
+         }
+ 
+         .section2-links2 ul li a
+         {
+             color: black;
+         }
+ 
+         .section2-links2 span
+         {
+             color: #808080;
+         }
+         
+        .section2-container
+         {
+             width: 100%;
+             height: 93%;
+             display: flex;
+             justify-content: center;
+             margin-top: 3rem;
+         }
+ 
+         /*-----------------------left div--------------------*/
+     
+         .section2-col
+         {
+             width: 70%;
+             height: 90%;
+             display: flex;
+         }
+ 
+         .section2-heading
+        {
+             width: 18rem;
+             height: 2rem;
+             padding: 0 0.75rem;
+             display: flex;
+        }
+ 
+        .section2-heading h5
+        {
+             font-size: 1.25rem;
+        }
+ 
+        .section2-content
+        {
+             width: 100%;
+             height: 100%;
+             display: flex;
+        }
+ 
+        .section2-list
+        {
+             width: 20rem;
+             height: 10rem;
+             padding: 0 0.75rem;
+             display: flex;
+             justify-content: center;
+             border: 1px solid black;
+             background-color: white;
+        }
+ 
+        .section2-list ul
+        {
+             width: 19rem;
+             height: 8rem;
+             padding: 1rem;
+        }
+ 
+        .section2-list ul li
+        {
+             list-style: none;
+             display: flex;
+             cursor: pointer;
+             margin: 2rem 0;
+        }
+ 
+        .section2-list ul li h6
+        {
+             font-size: 0.8rem;
+             font-weight: lighter;
+        }
+ 
+        .section2-list ul li:hover
+        {
+             color: #dd052b;
+        }
+ 
+        .section2-list ul li span
+        {
+             width: 1rem;
+             height: 1rem;
+             position: absolute;
+             right: 85rem;
+        }
+ 
+        /***************************right div******************/
+ 
+        .section2-right
+        {
+             width: 61rem;
+             height: 58rem;
+             margin-left: 1rem;
+        }
+ 
+        .search-sort
+        {
+             width: 100%;
+             height: 3.5rem;
+             display: flex;
+             align-items: center;
+        }
+ 
+        .search-sort p
+        {
+             font-size: 1.3rem;
+             margin-left: 4rem;
+        }
+ 
+        .search-sort select
+        {
+             width: 12.5rem;
+             height: 3.5rem;
+             padding: 1rem 1.25rem 1rem 1rem;
+             font-size: 1rem;
+             margin-left: 27rem;
+        }
+ 
+        .reports
+        {
+             width: 100%;
+             height: 52rem;
+        }
+ 
+        .report-table-two
+         {
+             width: 100%;
+             height: 100%;
+             background-color: white;
+         }
+ 
+         .report-table-two ul
+         {
+             width: 55rem;
+             height: 90%;
+             background-color: white;
+             padding: 2rem 2.5rem 1.5rem;
+         }
+ 
+         .report-table-two ul li
+         {
+             list-style: none;
+             width: 55rem;
+             height: 5rem;
+             padding: 1rem 0;
+             margin: 1rem 0;
+             display: flex;
+             align-items: center;
+             font-size: 0.9rem;
+             border: 1px solid black;
+         }
+ 
+         .title
+         {
+             width: 45rem;
+             height: 3rem;
+             display: flex;
+             align-items: center;
+         }
+ 
+         .title p
+         {
+             font-size: 1rem;
+             padding: 0 0 0 2.5rem;
+             margin-left: -1rem;
+             margin-right: 5rem;
+             font-weight: bold;
+         }
+
+         .title em
+         {
+            font-size: 0.8rem;
+            color: #515151;
+            margin: 0.8rem 0 0;
+            font-weight: lighter;
+         }
+ 
+         .icons
+         {
+             width: 11rem;
+             height: 1.5rem;
+             display: flex;
+             align-items: center;
+            
+         }
+ 
+         .icons a
+         {
+             color: #dd052b;
+             text-decoration: none;
+             font-weight: bold;
+         }
+ 
+         .icons span i
+         {
+             color: #dd052b;
+             text-decoration: underline;
+             cursor: pointer;
+             margin-left: 0.5rem;
+         }
+ 
+         /***************************section3*******************/
+ 
+         .section3
+         {
+             width: 100%;
+             height: 60rem;
+             padding: 3rem 0 0;
+         }
+ 
+         .section-header
+         {
+             width: 100%;
+             height: 5rem;
+             text-align: center;
+         }
+ 
+         .section-header h2
+         {
+             font-size: 2.5rem;
+             margin: 0 0 0.5rem;
+         }
+ 
+         .section3-container
+         {
+             width: 100%;
+             height: 44rem;
+             margin-top: 2rem;
+             background-image: url(images/reports\ img2.png);
+             background-size: cover;
+             position: relative;
+         }
+ 
+         .section3-content
+         {
+             width: 58rem;
+             height: 10rem;
+             color: white;
+             position: absolute;
+             left: 7rem;
+             top: 17rem;
+         }
+ 
+         .section3-content h2
+         {
+             font-size: 2rem;
+             margin: 0 0 0.5rem;
+         }
+ 
+         .section3-content p
+         {
+             font-size: 1.2rem;
+             margin: 0 0 2rem;
+         }
+ 
+         .button 
+         {
+             width: 100%;
+             height: 2rem;
+             display: flex;
+             justify-content: center;
+             margin-top: 2rem;
+         }
+ 
+         .button a
+         {
+             color: #dd052b;
+         }
+ 
+         .button span i
+         {
+             color: #dd052b;
+             margin-left: 0.5rem;
+         }
+ 
+         /********************section 4******************/
+ 
+         .section4
+         {
+             width: 100%;
+             height: 56rem;
+             padding: 3rem 0;
+         }
+ 
+         .section4-container
+         {
+             width: 100%;
+             height: 5rem;
+             padding: 0 0.75rem;
+             display: flex;
+             justify-content: center;
+         }
+ 
+         .section4-header
+         {
+             width: 78.5rem;
+             height: 2rem;
+             padding: 0 0 2rem;
+             font-size: 1.5rem;
+             text-align: center;
+         }
+ 
+         .section4-content1
+         {
+             width: 78.5rem;
+             height: 25rem;
+             margin-left: 21rem;
+             display: flex;
+         }
+ 
+         .section4-content1 img
+         {
+             width: 46rem;
+             height: 25rem;
+         }
+ 
+         .inquiry-text
+         {
+             width: 521px;
+             height: 19.3rem;
+             padding: 2.8rem 2.8rem 2.8rem 3.75rem;
+             background-color: #dd052b;
+         }
+ 
+         .inquiry-text h4
+         {
+             color: white;
+             font-size: 2rem;
+             font-weight: lighter;
+             margin: 6rem 0 2rem;
+         }
+ 
+         .inquiry-text a
+         {
+             color: black;
+             margin: 20px 0 0 ;
+             padding: 11px 22px;
+             background-color: white;
+             text-decoration: none;
+             font-weight: bold;
+         }
+ 
+         .section4-content2
+         {
+             width: 78.5rem;
+             height: 25rem;
+             margin-left: 21rem;
+             display: flex;
+             margin-top: 0.5rem;
+             border: 1px solid black;
+         }
+ 
+         .inquity-text2
+         {
+             width: 36.5rem;
+             height: 11rem;
+             padding: 0 3rem 0 0;
+             margin-top: 6.5rem;
+             margin-left: 2rem;
+         }
+ 
+         .inquity-text2 h4
+         {
+             font-size: 1.5rem;
+             margin: 0 0 0.5rem;
+         }
+ 
+         .inquity-text2 p
+         {
+             margin: 0 0 2rem;
+             padding: 0 10rem 0 0;
+         }
+ 
+         .inquity-text2 form #email
+         {
+             width: 25rem;
+             height: 2.6rem;
+             padding: 0 1rem;
+             background-color: #e8e8e8;
+             border: 1px solid white;
+             outline: none;
+         }
+ 
+         .inquity-text2 form #submit
+         {
+             width: 8rem;
+             height: 2.7rem;
+             margin-left: -0.4rem;
+             color: white;
+             background-color: #dd052b;
+             padding: 0 1rem;
+             border: 1px solid white;
+             cursor: pointer;
+         }
+ 
+         .section4-content3
+         {
+             width: 36rem;
+             height: 25rem;
+             padding: 0 0 0 0.8rem;
+         }
+ 
+         .info-box
+         {
+             width: 89%;
+             height: 8.1rem;
+             background-color: #f7f5ef;
+             padding: 2rem;
+             border: 1px solid black;
+             margin-bottom: 0.5rem;
+         }
+ 
+         .info-box h4
+         {
+             font-size: 1.5rem;
+             margin: 0 0 1.5rem;
+         }
+ 
+         .info-box a
+         {
+             text-decoration: none;
+             color: black;
+             margin: 1rem 0 0;    
+             font-size: 1.3rem;
+         }
+ 
+         .info-box a i
+         {
+             color: #dd052b;
+         }
+ 
+         /****************** footer ********************/
+ 
+         .main-footer
+         {
+             width: 100%;
+             height: 45.5rem;
+             background-color: #1c1c1c;
+             color: white;
+         }
+ 
+         .footer-div1
+         {
+             width: 80rem;
+             height: 8rem;
+             display: flex;
+             justify-content: center;
+             align-items: center;
+             margin-left: 16rem;
+         }
+ 
+         .footer-logo
+         {
+             color: white;
+             font-family: Satisfy;
+             font-size: 25px;
+             cursor: pointer;
+             background-image: linear-gradient(orange, purple);
+         }
+ 
+         .footer-content
+         {
+             width: 82rem;
+             margin-left: 16rem;
+             height: 31rem;
+             display: flex;
+             justify-content: space-evenly;
+         }
+ 
+         .head 
+         {
+             width: 12rem;
+             height: auto;
+         }
+ 
+         .head a
+         {
+             color: white;
+             text-decoration: none;
+             font-size: 0.9rem;
+         }
+ 
+         .head ul li
+         {
+             font-size: 0.9rem;
+             margin: 1rem 0 0;
+             list-style: none;
+         }
+         .footer-list li a
+         {
+             color: #808080;
+         }
+ 
+         .footer-list li:hover a
+         {
+             color: white;
+         }
+ 
+         /************* footer div2 ***************/
+ 
+         .footer-divs
+         {
+             width: 82rem;
+             height: 1.5rem;
+             display: flex;
+         }
+ 
+         .footer-div2
+         {
+             width: 36rem;
+             height: 1rem;
+             padding: 0 0.75rem;
+             font-size: 1rem;
+             color: white;
+             margin-left: 16rem;
+         }
+ 
+         .footer-div2 ul 
+         {
+             width: 34rem;
+             height: 1rem;
+             display: flex;
+             justify-content: space-evenly;
+         }
+ 
+         .bottom-nav li
+         {
+             list-style: none;
+             padding: 0 1rem;
+         }
+ 
+         .bottom-nav li a
+         {
+             color: white;
+             font-weight: lighter;
+             font-style: italic;
+             text-decoration: none;
+             font-size: 0.85rem;
+         }
+ 
+         /*************** footer icon div *****************/
+ 
+         .footer-div3
+         {
+             width: 30rem;
+             height: 1rem;
+             padding: 0 0.75rem;
+             font-size: 1rem;
+             color: white;
+             margin-left: 16rem;
+         }
+ 
+         .footer-div3 ul 
+         {
+             width: 23rem;
+             height: 1rem;
+             display: flex;
+         }
+ 
+         .bottom-icon li
+         {
+             list-style: none;
+             margin: 0.9rem; 
+         }
+ 
+         .bottom-icon li a
+         {
+             color: white;
+             text-decoration: none;
+         }
+ 
+         .bottom-icon li a img
+         {
+             width: 1.5rem;
+             height: 1.5rem;
+         }
+         /**************** copyright *****************/
+ 
+         .copyright
+         {
+             width: 100%;
+             height: 2.5rem;
+             background-color: #dd052c;
+             display: flex;
+             justify-content: center;
+             align-items: center;
+             font-size: 0.8rem;
+             margin-top: 2.5rem;
+             font-weight: bold;
+         }
