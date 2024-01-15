@@ -156,7 +156,7 @@ header{
         height: 53rem;
         background-image: url(images/trust\ img1.png);
         background-size: cover;
-        position: relative;
+        
         animation: slide 10s infinite ease-in-out;
     }
 

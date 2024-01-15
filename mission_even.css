@@ -76,7 +76,7 @@ header{
         {
             display: block;
             position: absolute;
-            top: -5rem;
+            top: -3.5rem;
             width: 100%;
             height: 24rem;
             display: flex;
@@ -149,7 +149,7 @@ header{
             height: 56rem;
             background-image: url(images/mission\ img1.png);
             background-size: cover;
-            position: relative;
+            
         }
 
         .section1-header
@@ -187,6 +187,7 @@ header{
             background-color: white;
             font-weight: bold;
         }
+
 
         /********************section2*********************/
 

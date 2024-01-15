@@ -156,7 +156,7 @@ header{
             height: 53rem;
             background-image: url(images/planet\ slide1.jpg);
             background-size: cover;
-            position: relative;
+            
             animation: slide 20s infinite ease-in-out;
         }
 
