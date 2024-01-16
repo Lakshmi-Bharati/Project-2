@@ -156,7 +156,6 @@ header{
             height: 53rem;
             background-image: url(images/leadership\ img1.png);
             background-size: cover;
-            position: relative;
             animation: change 10s infinite ease-in-out;
         }
 

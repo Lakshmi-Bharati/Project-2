@@ -156,7 +156,7 @@ header{
             height: 100%;
             background-image: url(images/cultural\ img1.png);
             background-size: cover;
-            position: relative;
+            
             animation: slide 30s infinite ease-in-out;
         }
 

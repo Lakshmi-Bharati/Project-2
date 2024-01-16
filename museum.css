@@ -156,7 +156,6 @@ header{
              height: 53rem;
              background-image: url(images/museum\ img1.png);
              background-size: cover;
-             position: relative;
              animation: slide 20s infinite ease-in-out;
          }
  
