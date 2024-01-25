@@ -62,9 +62,10 @@ form input
     background-color: black;
     text-decoration: underline;
     color: white;
-    font-size: 1rem;  
+    font-size: 1.5rem;  
     padding: 0.625rem 5rem 0.625rem 2.20rem;
     float: left;
+    outline: none;
 }
 
 .icon
