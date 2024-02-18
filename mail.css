@@ -383,6 +383,11 @@ header{
         height: 2rem;
     }
 
+    .bottom-icon li a img:hover
+    {
+        transform: scale(1.2);
+    }
+
     /************* section 3 ****************/
 
     .section3
@@ -417,7 +422,6 @@ header{
         height: 35rem;
         background-image: url(images/mail\ img1.png);
         background-size: cover;
-        
     }
 
     .section3-content-wrap
