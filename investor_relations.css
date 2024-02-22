@@ -363,6 +363,11 @@ header{
             margin: 0 0.3rem 0;
         }
 
+        #radio:checked
+        {
+            accent-color: red;
+        }
+
         label
         {
             margin-right: 1rem;
