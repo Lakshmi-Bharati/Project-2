@@ -242,18 +242,28 @@ header{
         gap: 1rem;
     }
 
-    .section3-child img
-    {
-        width: 100%;
-        height: 100%;
-    }
-
     .section3-grid-child1
     {
         grid-column-start: 1;
         grid-column-end: 4;
         grid-row-start: 1;
         grid-row-end: 2;
+    }
+
+    .section3-child{
+        position: relative;
+        overflow: hidden;
+        border: 1px solid green;
+    }
+    
+    .section3-child img {
+        transition: transform 0.3s ease;
+        max-width: 100%;
+        height: 100%;
+    }
+    
+    .section3-child:hover img {
+        transform: scale(1.2); 
     }
 
     /*******************section4******************/
