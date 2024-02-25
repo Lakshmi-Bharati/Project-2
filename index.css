@@ -286,7 +286,6 @@
 .child
 {
     position: relative;
-    /* display: inline-block;   */
     overflow: hidden; 
 }
 

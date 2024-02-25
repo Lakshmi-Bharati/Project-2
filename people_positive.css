@@ -253,7 +253,6 @@ header{
     .section3-child{
         position: relative;
         overflow: hidden;
-        border: 1px solid green;
     }
     
     .section3-child img {

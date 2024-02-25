@@ -239,19 +239,6 @@ header{
         gap: 1rem;
     }
 
-    .section3-child
-    {
-        width: auto;
-        height: 18.5rem;
-        position: relative;
-    }
-
-    .section3-child img
-    {
-        width: 100%;
-        height: 100%;
-    }
-
     .section3-grid-child1
     {
         grid-column-start: 1;
@@ -279,6 +266,27 @@ header{
     {
         margin: 0.6rem 0;
     }
+
+    .section3-child
+    {
+        width: auto;
+        height: 18.5rem;
+        position: relative;
+        overflow: hidden; 
+    }
+
+    .section3-child img
+    {
+        width: 100%;
+        height: 100%;
+        transition: transform 0.3s ease;
+        max-width: 100%;
+    }
+
+    .section3-child:hover img
+    {
+        transform: scale(1.2);
+    } 
 
     /***************************section 4 ******************/
 
@@ -465,13 +473,50 @@ header{
         margin-bottom: 4rem;
     }
 
-    .section6-container .all
-    {
+    .Btn {
+        width: 130px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color:#dd052b;
+        border: none;
         color: white;
-        text-decoration: none;
-        padding: 0.8rem 2rem;
-        background-color: #dd052b; 
-    }
+        font-size: 0.9rem;
+        font-weight: 600;
+        gap: 8px;
+        cursor: pointer;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.103);
+        position: relative;
+        overflow: hidden;
+        transition-duration: .3s;
+        margin-left: 36rem;
+      }
+
+      .Btn::before {
+        width: 130px;
+        height: 130px;
+        position: absolute;
+        content: "";
+        background-color: #ffffff;
+        border-radius: 50%;
+        left: -100%;
+        top: 0;
+        transition-duration: .3s;
+        mix-blend-mode: difference;
+      }
+      
+      .Btn:hover::before {
+        transition-duration: .3s;
+        transform: translate(100%,-50%);
+        border-radius: 0;
+      }
+      
+      .Btn:active {
+        transform: translate(5px,5px);
+        transition-duration: .3s;
+      }
+
 
     /*************************section7********************/
 
