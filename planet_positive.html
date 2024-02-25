@@ -11,6 +11,46 @@
     
 <link rel="icon" href="images/icon.jpg">
 <link rel="stylesheet" href="planet_positive.css">
+
+<script src="jquery-3.7.1.min.js"></script>
+    <script>
+        $(document).ready(function()
+        {
+            $("#click-link1").click(function()
+            {
+                $("#click-link2").css("color", "#808080");
+                $("#click-link3").css("color", "#808080");
+                $("#click-link1").css("color", "#dd052b");
+                $("#click-link2").css("border-bottom", "none");
+                $("#click-link3").css("border-bottom", "none");
+                $("#click-link1").css("border-bottom", "1px solid black");
+                $(".frame-div").load("scope.html");
+            });
+
+            $("#click-link2").click(function()
+            {
+                $("#click-link1").css("color", "#808080");
+                $("#click-link3").css("color", "#808080");
+                $("#click-link1").css("border-bottom", "none");
+                $("#click-link3").css("border-bottom", "none");
+                $("#click-link2").css("color", "#dd052b");
+                $("#click-link2").css("border-bottom", "1px solid black");
+                $(".frame-div").load("material.html");
+            });
+
+            $("#click-link3").click(function()
+            {
+                $("#click-link1").css("color", "#808080");
+                $("#click-link2").css("color", "#808080");
+                $("#click-link3").css("color", "#dd052b");
+                $("#click-link1").css("border-bottom", "none");
+                $("#click-link2").css("border-bottom", "none");
+                $("#click-link3").css("border-bottom", "1px solid black");
+                $(".frame-div").load("water.html");
+            });
+
+        });
+    </script>
 </head>
 
 
@@ -223,9 +263,9 @@
         </div>
 
         <ul class="nav">
-            <li ><a href="">Scope 1+2 emission reduction</a></li>
-            <li ><a href="">Adopting Material Circularity</a></li>
-            <li ><a href="">Becoming Water Positive</a></li>
+            <li ><a href="#" id="click-link1">Scope 1+2 emission reduction</a></li>
+            <li ><a href="#" id="click-link2">Adopting Material Circularity</a></li>
+            <li ><a href="#" id="click-link3">Becoming Water Positive</a></li>
         </ul>
        
         <div class="frame-div">
