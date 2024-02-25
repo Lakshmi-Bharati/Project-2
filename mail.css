@@ -145,172 +145,164 @@ header{
     /*********************section 1 *****************/
 
     .section1
-    {
-        width: 100%;
-        height: 46.5rem;
-        padding: 3rem 0;
-        font-size: 1rem;
-        background-color: #f6f5f0;
-    }
-    
-    .section1-header
-    {
-        width: 80%;
-        height: 6rem;
-        padding: 0 0 2rem;
-        margin-left: 11rem;
-    }
+{
+    width: 100%;
+    min-height: 35rem;
+    padding: 3rem 0;
+    background-color: #f7f5ef;
+    display: flex;
+    justify-content: center;
+}
 
-    .section1-header h6
-    {
-        width: 58rem;
-        height: 1rem;
-        margin: 0 13rem 3rem;
-    }
+.section1-container
+{
+    width: 70%;
+    min-height: 20rem;
+}
 
-    .section1-header h6 em
-    {
-        font-size: 1rem;
-        font-weight: lighter;
-    }
+.section-header
+{
+    width: 100%;
+    height: 6rem;
+    padding: 1rem 0;
+    text-align: center;
+}
 
-    .section1-header h2
-    {
-        width: 70rem;
-        height: 2rem;
-        font-size: 2.3rem;
-        margin-left: 30%;
-        letter-spacing: 0.3rem;
-        font-weight: lighter;
-    }
+.section-header h6
+{
+    font-size: 1rem;
+    font-weight: lighter;
+    margin: 0 0 1rem;
+}
 
-    .section1-content
-    {
-        width: 80rem;
-        height: 31rem;
-        padding: 0 0.75rem;
-        margin-left: 18rem;
-    }
+.section-header h2
+{
+    font-size: 2.5rem;
+    margin: 0 0 0.5rem;
+    font-weight: bold;
+}
 
-    .section1-content ul
-    {
-        display: flex;
-        justify-content: center;
-    }
+.button-click
+{
+    width: 100%;
+    height: 1.5rem;
+    margin: 0 0 2rem;
+    display: flex;
+    justify-content: center;
+}
 
-    .section1-content ul li
-    {
-        list-style: none;
-        margin: 1.8rem;
-    }
+.button-click li
+{
+    list-style: none;
+    margin: 0 1rem;
+}
 
-    .section1-content ul li a
-    {
-        color: #808080;
-        text-decoration: none;
-    }
+.button-click li a
+{
+    color: #808080;
+    text-decoration: none;
+}
 
-    .section1-content ul li a:hover
-    {
-        color: red;
-        text-decoration: underline;
-    }
+.link-container
+{
+    display: flex;
+    justify-content: center;
+}
 
-    .contact-form
-    {
-        width: 73.5rem;
-        height: 26rem;
-        padding: 2.5rem 3.125rem;   
-        border: 1px solid black;  
-        background-color: white; 
-    }
 
-    .contact-form h5
-    {
-        width: 72.5rem;
-        height: 1.8rem;
-        color: #DD052B;
-        font-size: 1.25rem;
-        letter-spacing: 0.2rem;
-        margin: 0 0 0.5rem;
-    }
+.contact-form
+{
+    width: 73.5rem;
+    height: 26rem;
+    padding: 2.5rem 3.125rem;     
+    background-color: white; 
+}
 
-    .contact-form p
-    {
-        width: 72.5rem;
-        height: 1.5rem;
-        font-size: 0.875rem;
-    }
+.contact-form h5
+{
+    width: 72.5rem;
+    height: 1.8rem;
+    color: #DD052B;
+    font-size: 1.25rem;
+    letter-spacing: 0.2rem;
+    margin: 0 0 0.5rem;
+}
 
-    .form-data
-    {
-        width: 73.5rem;
-        height: 19rem;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-        gap: 1rem;
-        margin-top: 1rem;
-        margin-bottom: 1rem;
-    }
+.contact-form p
+{
+    width: 72.5rem;
+    height: 1.5rem;
+    font-size: 0.875rem;
+}
 
-    .form-child fieldset
-    {
-        border: 1px solid white;
-    }
+.form-data
+{
+    width: 73.5rem;
+    height: 19rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
 
-    .form-child1 fieldset input
-    {
-        width: 35.25rem;
-        height: 2.5rem;
-        box-shadow: none;
-        outline: none;
-        border: 1px solid white;
-        border-bottom: 1px solid black;
-        font-size: 1rem;
-        padding: 4px 12px 4px 0;
-        margin: 4px 0 0;
-    }
-    
-    .form-child1 fieldset select
-    {
-        width: 35.25rem;
-        height: 2.5rem;
-        box-shadow: none;
-        outline: none;
-        border: 1px solid white;
-        border-bottom: 1px solid black;
-        font-size: 1rem;
-        padding: 4px 12px 4px 0;
-        margin: 4px 0 0;
-    }
+.form-child fieldset
+{
+    border: 1px solid white;
+}
 
-    .form-child3 span input
-    {
-        width: 47px;
-        height: 23px;
-        margin-bottom: 1rem;
-    }
+.form-child1 fieldset input
+{
+    width: 35.25rem;
+    height: 2.5rem;
+    box-shadow: none;
+    outline: none;
+    border: 1px solid white;
+    border-bottom: 1px solid black;
+    font-size: 1rem;
+    padding: 4px 12px 4px 0;
+    margin: 4px 0 0;
+}
 
-    .form-child2 textarea
-    {
-        width: 34rem;
-        height: 7rem;
-        padding: 6px 12px;
-    }
+.form-child1 fieldset select
+{
+    width: 35.25rem;
+    height: 2.5rem;
+    box-shadow: none;
+    outline: none;
+    border: 1px solid white;
+    border-bottom: 1px solid black;
+    font-size: 1rem;
+    padding: 4px 12px 4px 0;
+    margin: 4px 0 0;
+}
 
-    .form-child4 input
-    {
-        width: 100px;
-        height: 40px;
-        padding: 8px;
-        background-color: red;
-        font-size: 1rem;
-        color: white;
-        border: none;
-        cursor: pointer;
-    }
+.form-child3 span input
+{
+    width: 47px;
+    height: 23px;
+    margin-bottom: 1rem;
+}
 
+.form-child2 textarea
+{
+    width: 34rem;
+    height: 7rem;
+    padding: 6px 12px;
+}
+
+.form-child4 input
+{
+    width: 100px;
+    height: 40px;
+    padding: 8px;
+    background-color: red;
+    font-size: 1rem;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
     /******************* section2 social *****************/
 
     .section2-social

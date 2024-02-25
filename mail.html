@@ -11,7 +11,33 @@
 <link rel="icon" href="images/icon.jpg">
 <link rel="stylesheet" href="mail.css">
     <title>mail</title>
+    <script src="jquery-3.7.1.min.js"></script>
+    <script>
+        $(document).ready(function()
+        {
+            $("#click-link1").click(function()
+            {
+                $(".link-container").load("Business_link.html");
+            });
+
+            $("#click-link2").click(function()
+            {
+                $(".link-container").load("Investor_link.html");
+            });
+
+            $("#click-link3").click(function()
+            {
+                $(".link-container").load("media_link.html");
+            });
+
+            $("#click-link4").click(function()
+            {
+                $(".link-container").load("General_link.html");
+            });
+        });
+    </script>
 </head>
+
 
 
 <body>
@@ -173,24 +199,28 @@
 
     <!----------------------------section 1 --------------------->
 
-  <section class="section1">
-        <div class="section1-header">
+    <section class="section1">
+        <div class="section1-container">
+        <div class="section-header">
             <h6><em>Whether you’re a investor, dealer, Business professional or an investor, you can find the best way to contact us from the list below.</em></h6>
             <h2>I AM INTERESTED IN</h2>
         </div>
 
-        <div class="section1-content">
-            <ul>
-                <li><a href="">Businesses</a></li>
-                <li><a href="">Investor</a></li>
-                <li><a href="">Media</a></li>
-                <li><a href="">General Enquiry</a></li>
-            </ul>
+        <ul class="button-click">
+            <li><a href="#" id="click-link1">Business</a></li>
+            <li><a href="">|</a></li>
+            <li><a href="#" id="click-link2">Investor</a></li>
+            <li><a href="">|</a></li>
+            <li><a href="#" id="click-link3">Media</a></li>
+            <li><a href="">|</a></li>
+            <li><a href="#" id="click-link4">General Enquiry</a></li>
+        </ul>
 
+        <div class="link-container">
             <div class="contact-form">
                 <h5>THANKS FOR YOUR INTEREST IN MAHINDRA</h5>
                 <p>Please provide your most valuable information, so we can help you better!</p>
-
+        
                 
             <form action="" class="form-data">
                 <div class="form-child form-child1">
@@ -218,12 +248,12 @@
                 <textarea name="" id="query" cols="30" rows="10"></textarea>
                 
                 </div>
-
+        
                 <div class="form-child form-child3">
                     <label for="math">Math Question</label><br><br>
                     <span>8+2 = <input type="text" id="math"></span>
                 </div>
-
+        
                 <div class="form-child form-child4">
                     <input type="submit" value="Send">
                 </div>
@@ -231,7 +261,8 @@
             <p>Your information is secured under our privacy policy.</p>
         </div>
         </div>
-  </section> 
+    </div>
+    </section>
   
   <!----------------------------section 2 --------------------->
 
