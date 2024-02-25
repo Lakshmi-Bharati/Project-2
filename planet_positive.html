@@ -14,42 +14,221 @@
 
 <script src="jquery-3.7.1.min.js"></script>
     <script>
+        // onclick event 1
+
         $(document).ready(function()
         {
-            $("#click-link1").click(function()
+            $("#click1-link1").click(function()
             {
-                $("#click-link2").css("color", "#808080");
-                $("#click-link3").css("color", "#808080");
-                $("#click-link1").css("color", "#dd052b");
-                $("#click-link2").css("border-bottom", "none");
-                $("#click-link3").css("border-bottom", "none");
-                $("#click-link1").css("border-bottom", "1px solid black");
-                $(".frame-div").load("scope.html");
+                $("#click1-link2").css("color", "#808080");
+                $("#click1-link3").css("color", "#808080");
+                $("#click1-link1").css("color", "#dd052b");
+                $("#click1-link2").css("border-bottom", "none");
+                $("#click1-link3").css("border-bottom", "none");
+                $("#click1-link1").css("border-bottom", "1px solid black");
+                $(".frame1-div").load("scope.html");
             });
 
-            $("#click-link2").click(function()
+            $("#click1-link2").click(function()
             {
-                $("#click-link1").css("color", "#808080");
-                $("#click-link3").css("color", "#808080");
-                $("#click-link1").css("border-bottom", "none");
-                $("#click-link3").css("border-bottom", "none");
-                $("#click-link2").css("color", "#dd052b");
-                $("#click-link2").css("border-bottom", "1px solid black");
-                $(".frame-div").load("material.html");
+                $("#click1-link1").css("color", "#808080");
+                $("#click1-link3").css("color", "#808080");
+                $("#click1-link1").css("border-bottom", "none");
+                $("#click1-link3").css("border-bottom", "none");
+                $("#click1-link2").css("color", "#dd052b");
+                $("#click1-link2").css("border-bottom", "1px solid black");
+                $(".frame1-div").load("material.html");
             });
 
-            $("#click-link3").click(function()
+            $("#click1-link3").click(function()
             {
-                $("#click-link1").css("color", "#808080");
-                $("#click-link2").css("color", "#808080");
-                $("#click-link3").css("color", "#dd052b");
-                $("#click-link1").css("border-bottom", "none");
-                $("#click-link2").css("border-bottom", "none");
-                $("#click-link3").css("border-bottom", "1px solid black");
-                $(".frame-div").load("water.html");
+                $("#click1-link1").css("color", "#808080");
+                $("#click1-link2").css("color", "#808080");
+                $("#click1-link3").css("color", "#dd052b");
+                $("#click1-link1").css("border-bottom", "none");
+                $("#click1-link2").css("border-bottom", "none");
+                $("#click1-link3").css("border-bottom", "1px solid black");
+                $(".frame1-div").load("water.html");
             });
-
         });
+
+        // onclick event 2
+
+        $(document).ready(function()
+        {
+            $("#click2-link1").click(function()
+            {
+                $("#click2-link2").css("color", "#808080");
+                $("#click2-link3").css("color", "#808080");
+                $("#click2-link1").css("color", "#dd052b");
+                $("#click2-link2").css("border-bottom", "none");
+                $("#click2-link3").css("border-bottom", "none");
+                $("#click2-link1").css("border-bottom", "1px solid black");
+                $(".frame2-div").load("supply_chain.html");
+            });
+
+            $("#click2-link2").click(function()
+            {
+                $("#click2-link1").css("color", "#808080");
+                $("#click2-link3").css("color", "#808080");
+                $("#click2-link1").css("border-bottom", "none");
+                $("#click2-link3").css("border-bottom", "none");
+                $("#click2-link2").css("color", "#dd052b");
+                $("#click2-link2").css("border-bottom", "1px solid black");
+                $(".frame2-div").load("EVTransition.html");
+            });
+
+            $("#click2-link3").click(function()
+            {
+                $("#click2-link1").css("color", "#808080");
+                $("#click2-link2").css("color", "#808080");
+                $("#click2-link3").css("color", "#dd052b");
+                $("#click2-link1").css("border-bottom", "none");
+                $("#click2-link2").css("border-bottom", "none");
+                $("#click2-link3").css("border-bottom", "1px solid black");
+                $(".frame2-div").load("adoption.html");
+            });
+        });
+
+        // onclick event 3
+
+        $(document).ready(function()
+        {
+            $("#click3-link1").click(function()
+            {
+                $("#click3-link2").css("color", "#808080");
+                $("#click3-link3").css("color", "#808080");
+                $("#click3-link4").css("color", "#808080");
+
+                $("#click3-link1").css("color", "#dd052b");
+
+                $("#click3-link2").css("border-bottom", "none");
+                $("#click3-link3").css("border-bottom", "none");
+                $("#click3-link4").css("border-bottom", "none");
+
+                $("#click3-link1").css("border-bottom", "1px solid black");
+                $(".frame3-div").load("agri.html");
+            });
+
+            $("#click3-link2").click(function()
+            {
+                $("#click3-link1").css("color", "#808080");
+                $("#click3-link3").css("color", "#808080");
+                $("#click3-link4").css("color", "#808080");
+
+                $("#click3-link1").css("border-bottom", "none");
+                $("#click3-link3").css("border-bottom", "none");
+                $("#click3-link4").css("border-bottom", "none");
+
+                $("#click3-link2").css("color", "#dd052b");
+                $("#click3-link2").css("border-bottom", "1px solid black");
+                $(".frame3-div").load("scale.html");
+            });
+
+            $("#click3-link3").click(function()
+            {
+                $("#click3-link1").css("color", "#808080");
+                $("#click3-link2").css("color", "#808080");
+                $("#click3-link4").css("color", "#808080");
+
+                $("#click3-link3").css("color", "#dd052b");
+
+                $("#click3-link1").css("border-bottom", "none");
+                $("#click3-link2").css("border-bottom", "none");
+                $("#click3-link4").css("border-bottom", "none");
+
+                $("#click3-link3").css("border-bottom", "1px solid black");
+                $(".frame3-div").load("green.html");
+            });
+
+            $("#click3-link4").click(function()
+            {
+                $("#click3-link1").css("color", "#808080");
+                $("#click3-link2").css("color", "#808080");
+                $("#click3-link3").css("color", "#808080");
+
+                $("#click3-link4").css("color", "#dd052b");
+
+                $("#click3-link1").css("border-bottom", "none");
+                $("#click3-link2").css("border-bottom", "none");
+                $("#click3-link3").css("border-bottom", "none");
+
+                $("#click3-link4").css("border-bottom", "1px solid black");
+                $(".frame3-div").load("watershed.html");
+            });
+
+            // onclick event 4
+
+           $(document).ready(function()
+           {
+            $("#click4-link1").click(function()
+            {
+                $("#click4-link2").css("color", "#808080");
+                $("#click4-link3").css("color", "#808080");
+                $("#click4-link4").css("color", "#808080");
+
+                $("#click4-link1").css("color", "#dd052b");
+
+                $("#click4-link2").css("border-bottom", "none");
+                $("#click4-link3").css("border-bottom", "none");
+                $("#click4-link4").css("border-bottom", "none");
+
+                $("#click4-link1").css("border-bottom", "1px solid black");
+                $(".frame4-div").load("accelo.html");
+            });
+
+            $("#click4-link2").click(function()
+            {
+                $("#click4-link1").css("color", "#808080");
+                $("#click4-link3").css("color", "#808080");
+                $("#click4-link4").css("color", "#808080");
+
+                $("#click4-link1").css("border-bottom", "none");
+                $("#click4-link3").css("border-bottom", "none");
+                $("#click4-link4").css("border-bottom", "none");
+
+                $("#click4-link2").css("color", "#dd052b");
+                $("#click4-link2").css("border-bottom", "1px solid black");
+                $(".frame4-div").load("holidays.html");
+            });
+
+            $("#click4-link3").click(function()
+            {
+                $("#click4-link1").css("color", "#808080");
+                $("#click4-link2").css("color", "#808080");
+                $("#click4-link4").css("color", "#808080");
+
+                $("#click4-link3").css("color", "#dd052b");
+
+                $("#click4-link1").css("border-bottom", "none");
+                $("#click4-link2").css("border-bottom", "none");
+                $("#click4-link4").css("border-bottom", "none");
+
+                $("#click4-link3").css("border-bottom", "1px solid black");
+                $(".frame4-div").load("Lifespaces.html");
+            });
+
+            $("#click4-link4").click(function()
+            {
+                $("#click4-link1").css("color", "#808080");
+                $("#click4-link2").css("color", "#808080");
+                $("#click4-link3").css("color", "#808080");
+
+                $("#click4-link4").css("color", "#dd052b");
+
+                $("#click4-link1").css("border-bottom", "none");
+                $("#click4-link2").css("border-bottom", "none");
+                $("#click4-link3").css("border-bottom", "none");
+
+                $("#click4-link4").css("border-bottom", "1px solid black");
+                $(".frame4-div").load("Logisticslink.html");
+            });
+
+           });
+        });
+
+
+    
     </script>
 </head>
 
@@ -263,12 +442,12 @@
         </div>
 
         <ul class="nav">
-            <li ><a href="#" id="click-link1">Scope 1+2 emission reduction</a></li>
-            <li ><a href="#" id="click-link2">Adopting Material Circularity</a></li>
-            <li ><a href="#" id="click-link3">Becoming Water Positive</a></li>
+            <li ><a href="#" id="click1-link1" >Scope 1+2 emission reduction</a></li>
+            <li ><a href="#" id="click1-link2" >Adopting Material Circularity</a></li>
+            <li ><a href="#" id="click1-link3" >Becoming Water Positive</a></li>
         </ul>
        
-        <div class="frame-div">
+        <div class="frame1-div">
             <div class="section4-content">
                 <div class="section4-grid-child">
                     <a href=""><img src="images/planet grid1.png" alt=""></a>
@@ -316,12 +495,12 @@
         </div>
 
         <ul class="nav">
-            <li ><a href="">Supporting Net-Zero Supply Chain</a></li>
-            <li ><a href="">Accelerating EV Transition</a></li>
-            <li ><a href="">Auto-recycling Adoption</a></li>
+            <li ><a href="#" id="click2-link1" >Supporting Net-Zero Supply Chain</a></li>
+            <li ><a href="#" id="click2-link2" >Accelerating EV Transition</a></li>
+            <li ><a href="#" id="click2-link3" >Auto-recycling Adoption</a></li>
         </ul>
        
-        <div class="frame-div">
+        <div class="frame2-div">
             <div class="section5-content">
                 <div class="section5-grid-child">
                     <a href=""><img src="images/planet grid3 img1.png" alt=""></a>
@@ -359,16 +538,21 @@
         </div>
 
         <ul class="nav">
-            <li ><a href="">Promoting Regenerative Agriculture</a></li>
-            <li ><a href="">Afforestation at Scale</a></li>
-            <li ><a href="">Investing in Green Technology</a></li>
-            <li ><a href="">Watershed</a></li>
+            <li ><a href="#" id="click3-link1" >Promoting Regenerative Agriculture</a></li>
+            <li ><a href="#" id="click3-link2" >Afforestation at Scale</a></li>
+            <li ><a href="#" id="click3-link3" >Investing in Green Technology</a></li>
+            <li ><a href="#" id="click3-link4" >Watershed</a></li>
         </ul>
 
-        <div class="frame-div">
-            <div class="section6-container">
-                <div class="section6-content">
-                    <p>Project Hariyali: 20 million trees planted since 2007, survival rate of 85%.</p>
+        <div class="frame3-div">
+            <div class="section6-content">
+                <div class="section6-grid-child">
+                    <a href=""><img src="images/agri.png" alt=""></a>
+            
+                    <div class="section6-child-text">
+                        <p><a href="">
+                            Krish-e delivered an increased income of up to Rs. 15,000 per acre across more than 13,500 Takneek plots in F22.</a></p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -382,14 +566,18 @@
             <p>Driving positive change in the world by going beyond carbon proactively and enabling our stakeholders to Rise.</p>
         </div>
 
-        <ul class="nav">
-            <li ><a href="">Accelo</a></li>
-            <li ><a href="">Mahinra Holidays</a></li>
-            <li ><a href="">Mahindra Lifespaces</a></li>
-            <li ><a href="">Mahindra Logistics</a></li>
+        <ul class="nav2">
+            <li ><a href="#" id="click4-link1" >Accelo</a></li>
+            <li ><a href="#"  >|</a></li>
+            <li ><a href="#" id="click4-link2" >Mahindra Holidays</a></li>
+            <li ><a href="#" >|</a></li>
+            <li ><a href="#" id="click4-link3" >Mahindra Lifespaces</a></li>
+            <li ><a href="#" >|</a></li>
+            <li ><a href="#" id="click4-link4" >Mahindra Logistics</a></li>
+            
         </ul>
 
-        <div class="frame-div">
+        <div class="frame4-div">
             <div class="section7-content">
                 <div class="section7-grid-child">
                     <img src="images/sec7 grid1.png" alt="">

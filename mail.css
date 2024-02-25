@@ -203,6 +203,12 @@ header{
     text-decoration: none;
 }
 
+#click-link1
+{
+    color: #dd052b;
+    border-bottom: 1px solid black;
+}
+
 .link-container
 {
     display: flex;

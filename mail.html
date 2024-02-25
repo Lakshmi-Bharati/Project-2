@@ -17,21 +17,69 @@
         {
             $("#click-link1").click(function()
             {
+                $("#click-link3").css("color", "#808080");
+                $("#click-link4").css("color", "#808080");
+                $("#click-link2").css("color", "#808080");
+
+                $("#click-link1").css("color", "#dd052b");
+
+                $("#click-link3").css("border-bottom", "none");
+                $("#click-link4").css("border-bottom", "none");
+                $("#click-link2").css("border-bottom", "none");
+
+                $("#click-link1").css("border-bottom", "1px solid black");
+
                 $(".link-container").load("Business_link.html");
             });
 
             $("#click-link2").click(function()
             {
+                $("#click-link3").css("color", "#808080");
+                $("#click-link4").css("color", "#808080");
+                $("#click-link1").css("color", "#808080");
+
+                $("#click-link2").css("color", "#dd052b");
+
+                $("#click-link3").css("border-bottom", "none");
+                $("#click-link4").css("border-bottom", "none");
+                $("#click-link1").css("border-bottom", "none");
+
+                $("#click-link2").css("border-bottom", "1px solid black");
+                
                 $(".link-container").load("Investor_link.html");
             });
 
             $("#click-link3").click(function()
             {
+                $("#click-link1").css("color", "#808080");
+                $("#click-link4").css("color", "#808080");
+                $("#click-link2").css("color", "#808080");
+
+                $("#click-link3").css("color", "#dd052b");
+
+                $("#click-link1").css("border-bottom", "none");
+                $("#click-link4").css("border-bottom", "none");
+                $("#click-link2").css("border-bottom", "none");
+
+                $("#click-link3").css("border-bottom", "1px solid black");
+                
                 $(".link-container").load("media_link.html");
             });
 
             $("#click-link4").click(function()
             {
+                $("#click-link3").css("color", "#808080");
+                $("#click-link1").css("color", "#808080");
+                $("#click-link2").css("color", "#808080");
+
+                $("#click-link4").css("color", "#dd052b");
+
+                $("#click-link3").css("border-bottom", "none");
+                $("#click-link1").css("border-bottom", "none");
+                $("#click-link2").css("border-bottom", "none");
+
+                $("#click-link4").css("border-bottom", "1px solid black");
+                
                 $(".link-container").load("General_link.html");
             });
         });
